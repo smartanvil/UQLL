@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-Indexes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"index",
+		"from",
+		"to",
+		"step",
+		"sortedCollection"
+	],
+	"name" : "UQLLIndexInterval",
+	"type" : "normal"
+}

@@ -1,0 +1,10 @@
+SystemOrganization addCategory: #UQLL!
+SystemOrganization addCategory: 'UQLL-Buffers'!
+SystemOrganization addCategory: 'UQLL-EQL-Interpreter'!
+SystemOrganization addCategory: 'UQLL-Errors'!
+SystemOrganization addCategory: 'UQLL-Filters'!
+SystemOrganization addCategory: 'UQLL-Indexes'!
+SystemOrganization addCategory: 'UQLL-SemanticAST'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-BinaryOperators'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-UnaryOperators'!
+SystemOrganization addCategory: 'UQLL-Streams'!

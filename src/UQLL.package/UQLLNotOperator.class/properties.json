@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLUnaryBooleanOperator",
+	"category" : "UQLL-SemanticAST-UnaryOperators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLNotOperator",
+	"type" : "normal"
+}

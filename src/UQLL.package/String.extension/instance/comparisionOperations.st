@@ -1,0 +1,3 @@
+*UQLL
+comparisionOperations
+	^ {'>' . '<' . '<=' . '>=' . '==' . '!=' . 'like'}

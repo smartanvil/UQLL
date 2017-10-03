@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLComparisionOperator",
+	"category" : "UQLL-SemanticAST-BinaryOperators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLGreaterEqualsOperator",
+	"type" : "normal"
+}

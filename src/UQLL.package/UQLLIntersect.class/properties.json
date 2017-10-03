@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSetNode",
+	"category" : "UQLL-EQL-Interpreter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLIntersect",
+	"type" : "normal"
+}

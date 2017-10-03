@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "DynamicVariable",
+	"category" : "UQLL-Buffers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"default",
+		"connection"
+	],
+	"name" : "UQLLDynamicGlobals",
+	"type" : "normal"
+}

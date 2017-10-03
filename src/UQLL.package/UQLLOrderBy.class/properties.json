@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSemanticNode",
+	"category" : "UQLL-SemanticAST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLOrderBy",
+	"type" : "normal"
+}

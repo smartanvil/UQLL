@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSetStream",
+	"category" : "UQLL-EQL-Interpreter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLUnionProjectionStream",
+	"type" : "normal"
+}

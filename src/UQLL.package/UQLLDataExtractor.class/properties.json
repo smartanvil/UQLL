@@ -1,0 +1,16 @@
+{
+	"classtraitcomposition" : "TEquality classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"loader",
+		"name"
+	],
+	"name" : "UQLLDataExtractor",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TEquality",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "UQLL-EQL-Interpreter"
+}

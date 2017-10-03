@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSemanticNode",
+	"category" : "UQLL-SemanticAST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"expression"
+	],
+	"name" : "UQLLUnaryOperator",
+	"type" : "normal"
+}

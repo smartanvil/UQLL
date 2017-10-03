@@ -1,0 +1,3 @@
+*UQLL
+valueWithDictionaryArguments: aCollection 
+	^ self 

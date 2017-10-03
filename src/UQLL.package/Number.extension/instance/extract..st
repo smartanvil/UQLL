@@ -1,0 +1,3 @@
+*UQLL
+extract: aCollection 
+	^ self 

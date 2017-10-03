@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLResultStream",
+	"category" : "UQLL-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filter"
+	],
+	"name" : "UQLLFilteredResultStream",
+	"type" : "normal"
+}

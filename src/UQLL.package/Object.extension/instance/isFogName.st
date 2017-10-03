@@ -1,0 +1,3 @@
+*UQLL
+isFogName
+	^ false 

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLContractInstancesBuffer",
+	"category" : "UQLL-Buffers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLContractInstancesActivationsBuffer",
+	"type" : "normal"
+}

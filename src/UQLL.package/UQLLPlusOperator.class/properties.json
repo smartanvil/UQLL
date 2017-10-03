@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLBinaryArithmeticExpression",
+	"category" : "UQLL-SemanticAST-BinaryOperators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLPlusOperator",
+	"type" : "normal"
+}

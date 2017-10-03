@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSemanticNode",
+	"category" : "UQLL-EQL-Interpreter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstCollection",
+		"secondCollection"
+	],
+	"name" : "UQLLSetNode",
+	"type" : "normal"
+}

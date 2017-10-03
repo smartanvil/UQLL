@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLStream",
+	"category" : "UQLL-EQL-Interpreter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstCollection",
+		"secondCollection",
+		"privateStream"
+	],
+	"name" : "UQLLSetStream",
+	"type" : "normal"
+}

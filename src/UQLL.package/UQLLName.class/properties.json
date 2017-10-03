@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TEquality classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "UQLLName",
+	"commentStamp" : "",
+	"super" : "UQLLSemanticNode",
+	"traitcomposition" : "TEquality",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "UQLL-SemanticAST"
+}

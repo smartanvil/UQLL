@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLStream",
+	"category" : "UQLL-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dataProjection"
+	],
+	"name" : "UQLLProjectionStream",
+	"type" : "normal"
+}

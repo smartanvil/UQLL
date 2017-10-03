@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLBuffer",
+	"category" : "UQLL-Buffers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLAccountsBuffer",
+	"type" : "normal"
+}

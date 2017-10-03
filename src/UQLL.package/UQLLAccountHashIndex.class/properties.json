@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLIndex",
+	"category" : "UQLL-Indexes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLAccountHashIndex",
+	"type" : "normal"
+}
