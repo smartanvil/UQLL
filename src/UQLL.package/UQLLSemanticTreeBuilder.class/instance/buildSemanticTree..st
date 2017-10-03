@@ -1,3 +1,3 @@
 private
 buildSemanticTree: aScript
-	^ (EQLExpressionParser parseStream: aScript readStream) acceptVisitor: self.
+	^ (UQLExpressionParser parseStream: aScript readStream) acceptVisitor: self.
