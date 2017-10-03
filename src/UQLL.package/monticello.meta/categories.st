@@ -4,6 +4,7 @@ SystemOrganization addCategory: 'UQLL-EQL-Interpreter'!
 SystemOrganization addCategory: 'UQLL-Errors'!
 SystemOrganization addCategory: 'UQLL-Filters'!
 SystemOrganization addCategory: 'UQLL-Indexes'!
+SystemOrganization addCategory: 'UQLL-IndexesGenerator'!
 SystemOrganization addCategory: 'UQLL-SemanticAST'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-BinaryOperators'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-UnaryOperators'!

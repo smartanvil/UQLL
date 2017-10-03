@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "UQLL-IndexesGenerator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"fromStamp",
+		"toStamp"
+	],
+	"name" : "UQLLTimestampIntervalBlockStreamTest",
+	"type" : "normal"
+}

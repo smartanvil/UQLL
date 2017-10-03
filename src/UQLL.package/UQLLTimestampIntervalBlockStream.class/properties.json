@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-IndexesGenerator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fromStamp",
+		"toStamp",
+		"currentBlockNumber",
+		"fromBlockNumber",
+		"toBlockNumber"
+	],
+	"name" : "UQLLTimestampIntervalBlockStream",
+	"type" : "normal"
+}
