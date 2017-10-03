@@ -2,4 +2,4 @@ accessing
 installTransactionSizeIndex
 	environment
 		register: self transactionSizeIndexTag
-		forIndexBasedOn: FogEQLTransactionsAmountIndex
+		forIndexBasedOn: UQLLTransactionsAmountIndex

@@ -1,8 +1,8 @@
 initialization
 installTransactionsSizeIndex
 	indexRegistry
-		at: FogEQLTransactionsAmountIndex
+		at: UQLLTransactionsAmountIndex
 		put:
-			(FogEQLTransactionsAmountIndex
+			(UQLLTransactionsAmountIndex
 				on: [ FogDBBlockGeneralIndexSource new
 						sortTxAmountArray: (FLMaterializer materializeFromFileNamed: (FileLocator indexFolder / 'txamount.fl') fullName) ])

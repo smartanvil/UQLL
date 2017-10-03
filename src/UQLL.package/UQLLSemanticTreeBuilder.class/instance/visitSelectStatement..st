@@ -2,9 +2,9 @@ visiting
 visitSelectStatement: anEQLSelectStatementNode
 	| domain |
 	domain := anEQLSelectStatementNode domain
-		ifNil: [ FogEQLDynamicGlobals value ]
+		ifNil: [ UQLLDynamicGlobals value ]
 		ifNotNil: [ anEQLSelectStatementNode domain acceptVisitor: self ].
-	^ FogEQLSelect new
+	^ UQLLSelect new
 		from: (anEQLSelectStatementNode from acceptVisitor: self);
 		domain: domain;
 		where: (anEQLSelectStatementNode where acceptVisitor: self);

@@ -1,10 +1,10 @@
 visiting
-visitMethodCall: aFogEQLMethodCall
+visitMethodCall: aUQLLMethodCall
 	| method |
-	method := FogEQLMethod new
-		receiver: (aFogEQLMethodCall receiver  acceptVisitor: self);
-		selector: (aFogEQLMethodCall selector acceptVisitor: self);
-		arguments: (aFogEQLMethodCall arguments collect: [ :a | a acceptVisitor: self ]);
+	method := UQLLMethod new
+		receiver: (aUQLLMethodCall receiver  acceptVisitor: self);
+		selector: (aUQLLMethodCall selector acceptVisitor: self);
+		arguments: (aUQLLMethodCall arguments collect: [ :a | a acceptVisitor: self ]);
 		yourself.
 	^ method needsBinding
 		ifTrue: [ method ]

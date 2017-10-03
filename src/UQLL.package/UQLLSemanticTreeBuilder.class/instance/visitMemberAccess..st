@@ -3,7 +3,7 @@ visitMemberAccess: anEQLMemberAccessNode
 	| property accesses |
 	property := anEQLMemberAccessNode value acceptVisitor: self.
 	accesses := anEQLMemberAccessNode members collect: [ :m | m acceptVisitor: self ].
-	^ FogEQLNameAccess new
+	^ UQLLNameAccess new
 		value: property;
 		accesses: accesses;
 		yourself

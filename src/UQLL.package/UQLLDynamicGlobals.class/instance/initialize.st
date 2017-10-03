@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	connection := FogEQLFogConnection on: 'http://localhost:8545'.
-	default := FogEQLEnvironment new. 
+	connection := UQLLFogConnection on: 'http://localhost:8545'.
+	default := UQLLEnvironment new. 

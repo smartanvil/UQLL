@@ -1,5 +1,5 @@
 visiting
 visitWhereStatement: anEQLWhereStatementNode
-	^ FogEQLWhere new
+	^ UQLLWhere new
 		filter: (anEQLWhereStatementNode expression acceptVisitor: self);
 		yourself

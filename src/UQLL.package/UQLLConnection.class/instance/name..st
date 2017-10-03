@@ -1,3 +1,3 @@
 as yet unclassified
-name: aFogEQLName 
-	name := aFogEQLName
+name: aUQLLName 
+	name := aUQLLName

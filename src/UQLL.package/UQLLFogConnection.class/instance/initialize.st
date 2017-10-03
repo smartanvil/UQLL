@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	environment := FogEQLEnvironment new.
+	environment := UQLLEnvironment new.
 	environment connection: self

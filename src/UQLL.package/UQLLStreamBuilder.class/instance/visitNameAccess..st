@@ -1,3 +1,3 @@
 as yet unclassified
-visitNameAccess: aFogEQLNameAccess 
-	^ aFogEQLNameAccess 
+visitNameAccess: aUQLLNameAccess 
+	^ aUQLLNameAccess 

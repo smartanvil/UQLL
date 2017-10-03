@@ -3,7 +3,7 @@ binarySearchFindClosestTo: aStamp
 	| analysing lower upper current stamp |
 	[ stamp := aStamp asUnixTime ]
 		on: MessageNotUnderstood
-		do: [ :e | FogEQLError notValidTimeStamp: aStamp ].
+		do: [ :e | UQLLError notValidTimeStamp: aStamp ].
 	analysing := self data size.
 	lower := 2.
 	upper := analysing.

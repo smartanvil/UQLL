@@ -1,3 +1,3 @@
 as yet unclassified
-limit: aFogEQLLimit 
-	limit := aFogEQLLimit
+limit: aUQLLLimit 
+	limit := aUQLLLimit

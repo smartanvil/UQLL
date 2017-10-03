@@ -1,3 +1,3 @@
 as yet unclassified
-indexEntryTagOn: aFogEQLBlocksBuffer 
+indexEntryTagOn: aUQLLBlocksBuffer 
 	^ {$0}, 'NotValid'

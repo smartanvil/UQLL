@@ -1,6 +1,6 @@
 as yet unclassified
 reverse
-	^ FogEQLIndexInterval new
+	^ UQLLIndexInterval new
 		from: to;
 		to: from;
 		step: step negated;

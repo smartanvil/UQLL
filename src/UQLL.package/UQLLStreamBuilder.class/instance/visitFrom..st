@@ -1,8 +1,8 @@
 visiting
-visitFrom: aFogEQLFrom
+visitFrom: aUQLLFrom
 	| buffers indexes |
-	buffers := aFogEQLFrom datasources collect: [ :d | d acceptVisitor: self ].
+	buffers := aUQLLFrom datasources collect: [ :d | d acceptVisitor: self ].
 	indexes := [ buffers collect: [ :b | b value all readStream ] ].
-	^ (FogEQLResultStream on: buffers)
+	^ (UQLLResultStream on: buffers)
 		index: indexes;
 		yourself

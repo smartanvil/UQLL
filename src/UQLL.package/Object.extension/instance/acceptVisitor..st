@@ -1,3 +1,3 @@
 *UQLL
-acceptVisitor: aFogEQLStreamBuilder 
-	^ aFogEQLStreamBuilder visitObject: self 
+acceptVisitor: aUQLLStreamBuilder 
+	^ aUQLLStreamBuilder visitObject: self 

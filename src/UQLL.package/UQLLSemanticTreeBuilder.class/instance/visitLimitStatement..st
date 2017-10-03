@@ -1,5 +1,5 @@
 visiting
 visitLimitStatement: anEQLLimitStatementNode
-	^ FogEQLLimit new
+	^ UQLLLimit new
 		limit: anEQLLimitStatementNode amount value asNumber;
 		yourself

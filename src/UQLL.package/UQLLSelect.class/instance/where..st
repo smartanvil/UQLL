@@ -1,3 +1,3 @@
 as yet unclassified
-where: aFogEQLWhere 
-	where := aFogEQLWhere
+where: aUQLLWhere 
+	where := aUQLLWhere

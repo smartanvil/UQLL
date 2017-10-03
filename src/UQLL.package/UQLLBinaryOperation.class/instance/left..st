@@ -1,3 +1,3 @@
 as yet unclassified
-left: aFogEQLNameAccess 
-	left := aFogEQLNameAccess
+left: aUQLLNameAccess 
+	left := aUQLLNameAccess

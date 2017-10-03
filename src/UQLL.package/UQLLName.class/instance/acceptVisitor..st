@@ -1,3 +1,3 @@
 visiting
-acceptVisitor: aFogEQLFilterVisitor 
-	^ aFogEQLFilterVisitor visitName: self 
+acceptVisitor: aUQLLFilterVisitor 
+	^ aUQLLFilterVisitor visitName: self 

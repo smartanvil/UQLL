@@ -1,5 +1,5 @@
 as yet unclassified
-connection: aFogEQLConnection
+connection: aUQLLConnection
 	^ self new
-		connection: aFogEQLConnection;
+		connection: aUQLLConnection;
 		yourself

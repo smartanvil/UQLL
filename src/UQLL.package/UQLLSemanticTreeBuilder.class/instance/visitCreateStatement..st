@@ -1,5 +1,5 @@
 as yet unclassified
 visitCreateStatement: anEQLCreateStatementNode
-	^ FogEQLUserBufferDefinition new
+	^ UQLLUserBufferDefinition new
 		source: (anEQLCreateStatementNode selection acceptVisitor: self);
 		yourself

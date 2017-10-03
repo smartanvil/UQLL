@@ -1,3 +1,3 @@
 initialization
 testStreamIsProjectionStream
-	self assert: stream species equals: FogEQLProjectionStream 
+	self assert: stream species equals: UQLLProjectionStream 

@@ -1,3 +1,3 @@
 as yet unclassified
-firstCollection: aFogEQLProjectionStream 
-	firstCollection := aFogEQLProjectionStream
+firstCollection: aUQLLProjectionStream 
+	firstCollection := aUQLLProjectionStream

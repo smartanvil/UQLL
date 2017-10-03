@@ -1,6 +1,6 @@
 accessing
 interval: from to: to
-	^ FogEQLIndexInterval new
+	^ UQLLIndexInterval new
 		from: from;
 		to: to;
 		index: self;

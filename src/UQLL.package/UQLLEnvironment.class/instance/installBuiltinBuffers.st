@@ -2,18 +2,18 @@ initialization
 installBuiltinBuffers
 	| contractNameSpace brief |
 	contractNameSpace := Dictionary new.
-	contractNameSpace at: #instances put: (FogEQLContractInstancesBuffer onConnection: connection).
+	contractNameSpace at: #instances put: (UQLLContractInstancesBuffer onConnection: connection).
 	contractNameSpace
 		at: #descriptions
 		put:
-			((FogEQLContractBuffer onConnection: connection)
+			((UQLLContractBuffer onConnection: connection)
 				directory: FileLocator contractsFolder;
 				yourself).
-	contractNameSpace at: #activations put: (FogEQLContractInstancesBuffer onConnection: connection).
+	contractNameSpace at: #activations put: (UQLLContractInstancesBuffer onConnection: connection).
 	namedbuffers at: #contract put: contractNameSpace.
-	namedbuffers at: #blocks put: (FogEQLBlocksBuffer onConnection: connection).
-	namedbuffers at: #accounts put: (FogEQLAccountsBuffer onConnection: connection).
-	namedbuffers at: #transactions put: (FogEQLTransactionsBuffer onConnection: connection).
+	namedbuffers at: #blocks put: (UQLLBlocksBuffer onConnection: connection).
+	namedbuffers at: #accounts put: (UQLLAccountsBuffer onConnection: connection).
+	namedbuffers at: #transactions put: (UQLLTransactionsBuffer onConnection: connection).
 	namedbuffers at: #connections put: connections.
 	namedbuffers at: #indexes put: indexTags .
 	brief := namedbuffers associations

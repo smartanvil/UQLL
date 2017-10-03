@@ -1,3 +1,3 @@
 as yet unclassified
-receiver: aFogEQLName
-	receiver := aFogEQLName
+receiver: aUQLLName
+	receiver := aUQLLName

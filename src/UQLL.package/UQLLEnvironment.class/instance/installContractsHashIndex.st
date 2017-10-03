@@ -1,8 +1,8 @@
 initialization
 installContractsHashIndex
 	indexRegistry
-		at: FogEQLContractInstanceHashIndex
+		at: UQLLContractInstanceHashIndex
 		put:
-			(FogEQLContractInstanceHashIndex
+			(UQLLContractInstanceHashIndex
 				on:
 					[ (FLMaterializer materializeFromFileNamed: (FileLocator indexFolder / 'contracts-activations.fl') fullName) select: [ :i | i isNotNil ] ])

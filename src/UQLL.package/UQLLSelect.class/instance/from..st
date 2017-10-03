@@ -1,3 +1,3 @@
 as yet unclassified
-from: aFogEQLFrom 
-	from := aFogEQLFrom
+from: aUQLLFrom 
+	from := aUQLLFrom

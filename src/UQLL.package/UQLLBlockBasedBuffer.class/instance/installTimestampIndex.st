@@ -1,4 +1,4 @@
 accessing
 installTimestampIndex
-	environment register: self timestampIndexTag forIndexBasedOn: FogEQLStampIndex
+	environment register: self timestampIndexTag forIndexBasedOn: UQLLStampIndex
 	

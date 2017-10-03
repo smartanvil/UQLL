@@ -1,9 +1,9 @@
 initialization
 installAccountHashIndex
 	indexRegistry
-		at: FogEQLAccountHashIndex
+		at: UQLLAccountHashIndex
 		put:
-			(FogEQLAccountHashIndex
+			(UQLLAccountHashIndex
 				on: [ (FLMaterializer
 						materializeFromFileNamed: (FileLocator indexFolder / 'account-movements.fl') fullName)
 						select: [ :i | i isNotNil ] ])

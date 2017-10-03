@@ -1,7 +1,7 @@
 initialization
 installTimestampIndex
 	indexRegistry
-		at: FogEQLStampIndex
+		at: UQLLStampIndex
 		put:
-			(FogEQLStampIndex
+			(UQLLStampIndex
 				on: [ (FLMaterializer materializeFromFileNamed: (FileLocator indexFolder / 'stampIndex.fl') fullName) select: [ :i | i isNotNil ] ])

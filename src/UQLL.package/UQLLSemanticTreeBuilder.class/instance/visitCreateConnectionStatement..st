@@ -1,8 +1,8 @@
 as yet unclassified
 visitCreateConnectionStatement: anEQLCreateConnectionStatementNode
-	^ FogEQLCreateConnection
+	^ UQLLCreateConnection
 		connection:
-			(FogEQLConnection new
+			(UQLLConnection new
 				name: (anEQLCreateConnectionStatementNode name acceptVisitor: self);
 				url: (anEQLCreateConnectionStatementNode url acceptVisitor: self);
 				yourself)

@@ -1,6 +1,6 @@
 visiting
-acceptVisitor: aFogEQLStreamBuilder
-	^ FogEQLUnionProjectionStream new
-		firstCollection: (firstCollection acceptVisitor: aFogEQLStreamBuilder);
-		secondCollection: (secondCollection acceptVisitor: aFogEQLStreamBuilder);
+acceptVisitor: aUQLLStreamBuilder
+	^ UQLLUnionProjectionStream new
+		firstCollection: (firstCollection acceptVisitor: aUQLLStreamBuilder);
+		secondCollection: (secondCollection acceptVisitor: aUQLLStreamBuilder);
 		yourself

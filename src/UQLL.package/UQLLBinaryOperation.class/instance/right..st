@@ -1,3 +1,3 @@
 as yet unclassified
-right: aFogEQLMethod
-	right := aFogEQLMethod
+right: aUQLLMethod
+	right := aUQLLMethod

@@ -1,10 +1,10 @@
 visiting
-visitFunctionCall: aFogEQLFunctionCall
+visitFunctionCall: aUQLLFunctionCall
 	| method |
-	method := FogEQLMethod new
-		receiver: FogEQLDynamicGlobals value functions;
-		selector: (aFogEQLFunctionCall selector acceptVisitor: self);
-		arguments: (aFogEQLFunctionCall arguments collect: [ :a | a acceptVisitor: self ]);
+	method := UQLLMethod new
+		receiver: UQLLDynamicGlobals value functions;
+		selector: (aUQLLFunctionCall selector acceptVisitor: self);
+		arguments: (aUQLLFunctionCall arguments collect: [ :a | a acceptVisitor: self ]);
 		yourself.
 	^ method needsBinding
 		ifTrue: [ method ]

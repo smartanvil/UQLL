@@ -1,3 +1,3 @@
 as yet unclassified
 receiver
-	^ FogEQLDynamicGlobals value functions
+	^ UQLLDynamicGlobals value functions

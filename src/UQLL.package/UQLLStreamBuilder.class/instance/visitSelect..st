@@ -1,17 +1,17 @@
 visiting
-visitSelect: aFogEQLSelect
+visitSelect: aUQLLSelect
 	| source |
-	environment := aFogEQLSelect domain.
-	source := aFogEQLSelect from acceptVisitor: self.
-	source := self composeSource: source withAstNode: aFogEQLSelect where.
-	source := self composeSource: source withAstNode: aFogEQLSelect limit.
-	source := self composeSource: source withAstNode: aFogEQLSelect orderBy.
-	^ FogEQLProjectionStream new
+	environment := aUQLLSelect domain.
+	source := aUQLLSelect from acceptVisitor: self.
+	source := self composeSource: source withAstNode: aUQLLSelect where.
+	source := self composeSource: source withAstNode: aUQLLSelect limit.
+	source := self composeSource: source withAstNode: aUQLLSelect orderBy.
+	^ UQLLProjectionStream new
 		source: source;
 		outline:
-			(aFogEQLSelect select
+			(aUQLLSelect select
 				collect: [ :n | 
-					FogEQLDataExtractor new
+					UQLLDataExtractor new
 						load: (n acceptVisitor: self);
 						yourself ]);
 		yourself

@@ -1,3 +1,3 @@
 configuration
-load: aFogEQLName 
-	name := aFogEQLName 
+load: aUQLLName 
+	name := aUQLLName 

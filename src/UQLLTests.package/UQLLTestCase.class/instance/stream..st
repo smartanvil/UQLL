@@ -1,4 +1,4 @@
 accessing
 stream: aQuery
-	^ FogEQLStreamBuilder buildStream: (FogEQLSemanticTreeBuilder buildSemanticTree: aQuery)
+	^ UQLLStreamBuilder buildStream: (UQLLSemanticTreeBuilder buildSemanticTree: aQuery)
 	

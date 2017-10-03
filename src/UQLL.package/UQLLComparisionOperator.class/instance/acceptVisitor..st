@@ -1,3 +1,3 @@
 visiting
-acceptVisitor: aFogEQLStreamBuilder 
-	^ aFogEQLStreamBuilder visitComparisionOperator: self 
+acceptVisitor: aUQLLStreamBuilder 
+	^ aUQLLStreamBuilder visitComparisionOperator: self 

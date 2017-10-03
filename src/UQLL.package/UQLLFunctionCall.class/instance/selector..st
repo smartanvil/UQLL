@@ -1,3 +1,3 @@
 accessing
-selector: aFogEQLName 
-	selector := aFogEQLName
+selector: aUQLLName 
+	selector := aUQLLName

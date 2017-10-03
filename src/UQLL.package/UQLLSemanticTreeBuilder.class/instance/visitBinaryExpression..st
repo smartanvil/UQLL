@@ -4,13 +4,13 @@ visitBinaryExpression: anEQLBinaryExpressionNode
 	left := anEQLBinaryExpressionNode left_exp acceptVisitor: self.
 	right := anEQLBinaryExpressionNode right_exp acceptVisitor: self.
 	anEQLBinaryExpressionNode operation value isArithmeticExpression
-		ifTrue: [ rslt := FogEQLBinaryArithmeticExpression new ].
+		ifTrue: [ rslt := UQLLBinaryArithmeticExpression new ].
 	anEQLBinaryExpressionNode operation value isBooleanExpression
-		ifTrue: [ rslt := FogEQLBinaryBooleanOperator new ].
+		ifTrue: [ rslt := UQLLBinaryBooleanOperator new ].
 	anEQLBinaryExpressionNode operation value isAssignmentExpression
-		ifTrue: [ rslt := FogEQLAssignation new ].
+		ifTrue: [ rslt := UQLLAssignation new ].
 	anEQLBinaryExpressionNode operation value isComparisionExpression
-		ifTrue: [ rslt := FogEQLComparisionOperator new ].
+		ifTrue: [ rslt := UQLLComparisionOperator new ].
 	rslt left: left.
 	rslt right: right.
 	rslt operation: anEQLBinaryExpressionNode operation value asSymbol.

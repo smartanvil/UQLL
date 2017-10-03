@@ -1,3 +1,3 @@
 visiting
-acceptVisitor: aFogEQLVisitor 
-	^ aFogEQLVisitor visitNameAccess: self 
+acceptVisitor: aUQLLVisitor 
+	^ aUQLLVisitor visitNameAccess: self 

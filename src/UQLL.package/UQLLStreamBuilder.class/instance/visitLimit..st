@@ -1,5 +1,5 @@
 as yet unclassified
-visitLimit: aFogEQLLimit
-	^ FogEQLLimitedStream new
-		limit: aFogEQLLimit limit;
+visitLimit: aUQLLLimit
+	^ UQLLLimitedStream new
+		limit: aUQLLLimit limit;
 		yourself

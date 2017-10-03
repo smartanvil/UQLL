@@ -1,3 +1,3 @@
 as yet unclassified
-visitBufferSelector: aFogEQLBufferSelector
-	^ aFogEQLBufferSelector binding -> (environment getBufferNamed: aFogEQLBufferSelector selector)
+visitBufferSelector: aUQLLBufferSelector
+	^ aUQLLBufferSelector binding -> (environment getBufferNamed: aUQLLBufferSelector selector)

@@ -1,3 +1,3 @@
 visiting
-acceptVisitor: aFogEQLStreamBuilder 
-	^ aFogEQLStreamBuilder visitBinaryBooleanOperator: self 
+acceptVisitor: aUQLLStreamBuilder 
+	^ aUQLLStreamBuilder visitBinaryBooleanOperator: self 

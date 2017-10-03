@@ -1,7 +1,7 @@
 as yet unclassified
-visitComparisionOperator: aFogEQLGreaterOperator
+visitComparisionOperator: aUQLLGreaterOperator
 	^ '{1} {2} {3}'
 		format:
-			{(aFogEQLGreaterOperator left acceptVisitor: self).
-			aFogEQLGreaterOperator operation.
-			(aFogEQLGreaterOperator right acceptVisitor: self)}
+			{(aUQLLGreaterOperator left acceptVisitor: self).
+			aUQLLGreaterOperator operation.
+			(aUQLLGreaterOperator right acceptVisitor: self)}

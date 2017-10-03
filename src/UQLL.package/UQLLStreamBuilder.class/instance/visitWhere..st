@@ -1,5 +1,5 @@
 visiting
-visitWhere: aFogEQLWhere
-	^ FogEQLFilteredResultStream new
-		filter: (aFogEQLWhere filter acceptVisitor: self);
+visitWhere: aUQLLWhere
+	^ UQLLFilteredResultStream new
+		filter: (aUQLLWhere filter acceptVisitor: self);
 		yourself

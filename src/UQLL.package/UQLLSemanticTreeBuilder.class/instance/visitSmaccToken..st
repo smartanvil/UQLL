@@ -1,5 +1,5 @@
 as yet unclassified
 visitSmaccToken: aSmaCCToken
-	^ FogEQLName new
+	^ UQLLName new
 		value: aSmaCCToken value;
 		yourself

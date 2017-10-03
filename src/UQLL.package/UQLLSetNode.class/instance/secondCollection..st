@@ -1,3 +1,3 @@
 as yet unclassified
-secondCollection: aFogEQLSelect 
-	secondCollection := aFogEQLSelect
+secondCollection: aUQLLSelect 
+	secondCollection := aUQLLSelect

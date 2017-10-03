@@ -1,6 +1,13 @@
 visiting
 visitMethodCall: anEQLMethodCallNode
-	^ FogEQLMethodCall new
+	| receiver |
+	anEQLMethodCallNode members isEmpty
+		ifTrue: [ receiver := EQLMemberAccessNode new.
+			receiver value: anEQLMethodCallNode value.
+			receiver members: anEQLMethodCallNode members.
+			anEQLMethodCallNode members: OrderedCollection new.
+			anEQLMethodCallNode value: receiver ].
+	^ UQLLMethodCall new
 		receiver: (anEQLMethodCallNode value acceptVisitor: self);
 		selector: (anEQLMethodCallNode selector acceptVisitor: self);
 		arguments: (anEQLMethodCallNode arguments acceptVisitor: self);

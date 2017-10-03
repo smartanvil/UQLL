@@ -1,5 +1,5 @@
 building
-composeSource: aStream withAstNode: aFogEQLSemanticNode
-	^ aFogEQLSemanticNode
+composeSource: aStream withAstNode: aUQLLSemanticNode
+	^ aUQLLSemanticNode
 		ifNil: [ aStream ]
-		ifNotNil: [ (aFogEQLSemanticNode acceptVisitor: self) source: aStream ]
+		ifNotNil: [ (aUQLLSemanticNode acceptVisitor: self) source: aStream ]

@@ -1,3 +1,3 @@
 accessing
 installContractHashIndex
-	environment register: self hashIndexTag forIndexBasedOn: FogEQLContractInstanceHashIndex
+	environment register: self hashIndexTag forIndexBasedOn: UQLLContractInstanceHashIndex
