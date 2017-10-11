@@ -1,8 +1,8 @@
 initialization
 installContractsHashIndex
 	indexRegistry
-		at: UQLLContractInstanceHashIndex
+		at: #ContractToBlockHashes
 		put:
-			(UQLLContractInstanceHashIndex
+			(UQLLHashToSetOfHashesIndex
 				on:
 					[ (FLMaterializer materializeFromFileNamed: (FileLocator indexFolder / 'contracts-activations.fl') fullName) select: [ :i | i isNotNil ] ])

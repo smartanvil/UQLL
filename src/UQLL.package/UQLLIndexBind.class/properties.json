@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-Indexes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"builder",
+		"tag",
+		"filename"
+	],
+	"name" : "UQLLIndexBind",
+	"type" : "normal"
+}

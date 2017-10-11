@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLIndexBuilder",
+	"category" : "UQLL-IndexesGenerator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLContractToBlockHashActivation",
+	"type" : "normal"
+}

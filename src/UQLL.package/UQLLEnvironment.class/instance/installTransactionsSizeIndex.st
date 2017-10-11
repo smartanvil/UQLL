@@ -1,8 +1,8 @@
 initialization
 installTransactionsSizeIndex
 	indexRegistry
-		at: UQLLTransactionsAmountIndex
+		at: #AmountOfTransactionsToBlockHash
 		put:
-			(UQLLTransactionsAmountIndex
-				on: [ UQLLBlockGeneralIndexSource new
+			(UQLLIntegerAmountToHashIndex
+				on: [ UQLLBlockGeneralIndexBuilder new
 						sortTxAmountArray: (FLMaterializer materializeFromFileNamed: (FileLocator indexFolder / 'txamount.fl') fullName) ])

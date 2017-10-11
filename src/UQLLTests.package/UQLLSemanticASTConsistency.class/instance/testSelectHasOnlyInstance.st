@@ -1,3 +1,3 @@
 initialization
 testSelectHasOnlyInstance
-	self assert: ast select first value equals: 'instance'
+	self assert: ast select first string equals: 'instance'

@@ -1,0 +1,1 @@
+An interval that allows set operations withoud generating all the represented cases 

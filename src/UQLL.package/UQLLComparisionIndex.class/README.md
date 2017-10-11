@@ -1,0 +1,1 @@
+A comparision index is an index that supports the usage in a where clause by full comparison. It indexes then some kind of magnitude

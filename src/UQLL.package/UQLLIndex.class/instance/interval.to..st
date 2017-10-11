@@ -1,4 +1,4 @@
-accessing
+iteration
 interval: from to: to
 	^ UQLLIndexInterval new
 		from: from;

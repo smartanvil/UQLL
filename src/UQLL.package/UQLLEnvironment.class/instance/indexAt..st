@@ -1,3 +1,3 @@
 index
-indexAt: aString 
-	^ indexTags at: aString
+indexAt: aString
+	^ (indexTags at: aString) index

@@ -1,0 +1,1 @@
+Not really an index but a binary search 

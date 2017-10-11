@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 data: aCollection 
 	data := aCollection

@@ -1,7 +1,7 @@
 initialization
 installTimestampIndex
 	indexRegistry
-		at: UQLLStampIndex
+		at: #BlockStampToBlockHash
 		put:
-			(UQLLStampIndex
+			(UQLLStampToHashIndex
 				on: [ (FLMaterializer materializeFromFileNamed: (FileLocator indexFolder / 'stampIndex.fl') fullName) select: [ :i | i isNotNil ] ])

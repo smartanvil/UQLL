@@ -1,9 +1,9 @@
 initialization
 installAccountHashIndex
 	indexRegistry
-		at: UQLLAccountHashIndex
+		at: #AccountToBlockHashes
 		put:
-			(UQLLAccountHashIndex
+			(UQLLHashToSetOfHashesIndex
 				on: [ (FLMaterializer
 						materializeFromFileNamed: (FileLocator indexFolder / 'account-movements.fl') fullName)
 						select: [ :i | i isNotNil ] ])

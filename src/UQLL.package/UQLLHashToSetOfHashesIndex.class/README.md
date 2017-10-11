@@ -1,0 +1,1 @@
+This index registers external accounts to block hashes.
