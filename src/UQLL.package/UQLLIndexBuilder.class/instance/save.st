@@ -1,5 +1,6 @@
 actions
 save
+	self tagIndex.
 	index
 		prepare;
-		saveAs: FileLocator indexFolder / index fileName
+		saveAs: FileLocator indexFolder / self fileName

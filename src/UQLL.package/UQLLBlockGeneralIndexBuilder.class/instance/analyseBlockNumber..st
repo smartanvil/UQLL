@@ -1,7 +1,10 @@
 source-gathering
 analyseBlockNumber: aBlockNumber
-	| block tx txFrom txTo txInput size |
+	| block |
 	block := self connection eth getBlockByNumber: aBlockNumber full: true.
+	indexes do: [ : i | i register: block ].
+	"
+	|tx txFrom txTo txInput size |
 	tx := block at: #transactions.
 	size := tx size.
 	txFrom := Array new: size.
@@ -20,4 +23,4 @@ analyseBlockNumber: aBlockNumber
 			(block at: #timestamp) asBKNumber.
 			txFrom.
 			txTo.
-			txInput}
+			txInput}"

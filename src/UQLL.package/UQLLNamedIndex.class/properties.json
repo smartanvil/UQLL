@@ -1,15 +1,15 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 10/25/2017 15:25",
 	"super" : "Object",
 	"category" : "UQLL-Indexes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"builder",
-		"tag",
-		"filename"
+		"name",
+		"index",
+		"file"
 	],
-	"name" : "UQLLIndexBind",
+	"name" : "UQLLNamedIndex",
 	"type" : "normal"
 }

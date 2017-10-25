@@ -1,0 +1,3 @@
+registry
+tag
+	^ #AmountOfContractCreationToBlockHash

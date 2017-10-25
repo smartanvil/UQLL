@@ -3,4 +3,7 @@ installBuiltinIndexes
 	self installAccountHashIndex.
 	self installTimestampIndex.
 	self installTransactionsSizeIndex.
-	self installContractsHashIndex
+	self installContractsHashIndex.
+	self installContractsAmountPerBlockIndex.
+	self installAccountHashToTransactionHashIndex.
+	self installContractHashToTransactionHashIndex.

@@ -1,0 +1,3 @@
+registry
+relatedIndexKind
+	^ self subclassResponsibility 
