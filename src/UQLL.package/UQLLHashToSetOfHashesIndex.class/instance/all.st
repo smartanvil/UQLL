@@ -1,3 +1,3 @@
 accessing
 all
-	^ self data keys
+	^ self data keys collect: [ :k | k asBKHexa: 40 ]

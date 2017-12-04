@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 all
-	^ data collect: [ :a | a at: 2 ]
+	^ data collect: [ :a | (a at: 2) asBKHexa: 40 ]

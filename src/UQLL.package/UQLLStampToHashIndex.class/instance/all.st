@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 all
-	^ self data collect: [ :array | array at: 2 ]
+	^ self data collect: [ :array | (array at: 2 ) asBKHexa: 64 ]

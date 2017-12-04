@@ -1,3 +1,3 @@
 accessing
 at: aBlockIdOrHash
-	^ self transform: (self connection findBlockByHash: (aBlockIdOrHash asBKHexa: 64) full: true)
+	^ self transform: (self connection findBlockByHash: aBlockIdOrHash asAddress full: true)
