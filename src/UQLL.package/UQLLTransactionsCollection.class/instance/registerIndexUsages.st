@@ -1,0 +1,4 @@
+initialization
+registerIndexUsages
+	self installProjectedTimestampIndex.
+	self installProjectedTransactionSize

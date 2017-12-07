@@ -1,6 +1,6 @@
 accessing
-indexEntryTagOn: aBuffer
+indexEntryTagOn: aCollection
 	^ '{1}.{2}'
 		format:
-			{aBuffer bufferName.
+			{aCollection collectionName.
 			('.' join: (accesses collect: #string))}

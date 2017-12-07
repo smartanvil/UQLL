@@ -1,3 +1,3 @@
 comparing
 greater: aPoint
-	^ self interval: aPoint y + 1 to: self data size
+	^ self interval: aPoint y + 1 to: self  size

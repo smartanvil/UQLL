@@ -1,6 +1,6 @@
 visiting
 visitOrOperator: anUQLLOrOperator 
-	^ UQLLOrOperation new
+	^ UQLLOrOperationFilter new
 		left: (anUQLLOrOperator left acceptVisitor: self);
 		right: (anUQLLOrOperator right acceptVisitor: self);
 		operation: anUQLLOrOperator operation;

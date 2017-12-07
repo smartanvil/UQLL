@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "SantiagoBragagnolo 10/25/2017 15:25",
 	"super" : "Object",
-	"category" : "UQLL-Indexes",
+	"category" : "UQLL-Structural-Indexes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,6 +1,6 @@
 visiting
 visitComparisionOperator: aUQLLGreaterOperator
-	^ UQLLBinaryOperation new
+	^ UQLLBinaryOperationFilter new
 		left: (aUQLLGreaterOperator left acceptVisitor: self);
 		right: (aUQLLGreaterOperator right acceptVisitor: self);
 		operation: aUQLLGreaterOperator operation;

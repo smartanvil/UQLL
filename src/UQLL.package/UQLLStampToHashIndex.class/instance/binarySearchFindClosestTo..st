@@ -4,7 +4,7 @@ binarySearchFindClosestTo: aStamp
 	[ stamp := aStamp asUnixTime ]
 		on: MessageNotUnderstood
 		do: [ :e | UQLLError notValidTimeStamp: aStamp ].
-	analysing := self data size.
+	analysing := self size.
 	lower := 2.
 	upper := analysing.
 	[ lower < upper ]

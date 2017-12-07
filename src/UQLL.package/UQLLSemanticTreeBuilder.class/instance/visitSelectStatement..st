@@ -2,7 +2,7 @@ visiting
 visitSelectStatement: anEQLSelectStatementNode
 	| domain |
 	domain := anEQLSelectStatementNode domain
-		ifNil: [ UQLLDynamicGlobals value ]
+		ifNil: [ UQLLRunningEnvironmentHolder value ]
 		ifNotNil: [ anEQLSelectStatementNode domain acceptVisitor: self ].
 	^ UQLLSelect new
 		from: (anEQLSelectStatementNode from acceptVisitor: self);

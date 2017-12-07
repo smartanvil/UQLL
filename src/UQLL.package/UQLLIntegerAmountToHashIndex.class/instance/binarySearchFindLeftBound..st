@@ -2,7 +2,7 @@ as yet unclassified
 binarySearchFindLeftBound: anInteger
 	| analysing next lower upper current |
 	lower := 1.
-	upper := self data size.
+	upper := self size.
 	[ lower < upper ]
 		whileTrue: [ current := lower + ((upper - lower) // 2).
 			analysing := self data at: current.

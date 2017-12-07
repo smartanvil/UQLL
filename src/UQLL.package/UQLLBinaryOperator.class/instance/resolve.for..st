@@ -1,3 +1,3 @@
 as yet unclassified
-resolve: aBranch for: aFogStreamsContractInstancesBufferArray
-	^ aBranch resolveStaticValueOrBranchFor: aFogStreamsContractInstancesBufferArray
+resolve: aBranch for: aFogStreamsContractInstancesCollectionArray
+	^ aBranch resolveStaticValueOrBranchFor: aFogStreamsContractInstancesCollectionArray

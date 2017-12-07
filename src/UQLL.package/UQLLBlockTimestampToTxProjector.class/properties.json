@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLStampToHashIndex",
+	"category" : "UQLL-Structural-Indexes-Combinations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"index"
+	],
+	"name" : "UQLLBlockTimestampToTxProjector",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLBlockBasedCollection",
+	"category" : "UQLL-Structural-Collections",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"all"
+	],
+	"name" : "UQLLTransactionsCollection",
+	"type" : "normal"
+}

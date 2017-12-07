@@ -1,3 +1,3 @@
 as yet unclassified
-indexEntryTagOn: aUQLLBlocksBuffer 
+indexEntryTagOn: aUQLLBlocksCollection 
 	^ {$0}, 'NotValid'

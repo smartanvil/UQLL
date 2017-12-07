@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "DynamicVariable",
+	"category" : "UQLL-Structural",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"default",
+		"connection"
+	],
+	"name" : "UQLLRunningEnvironmentHolder",
+	"type" : "normal"
+}

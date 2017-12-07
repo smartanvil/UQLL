@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-Structural-Collections",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"indexes",
+		"connection",
+		"environment"
+	],
+	"name" : "UQLLCollection",
+	"type" : "normal"
+}

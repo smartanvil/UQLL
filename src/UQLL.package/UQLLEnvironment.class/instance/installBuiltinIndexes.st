@@ -7,3 +7,5 @@ installBuiltinIndexes
 	self installContractsAmountPerBlockIndex.
 	self installAccountHashToTransactionHashIndex.
 	self installContractHashToTransactionHashIndex.
+	self installTimeStampToTxProjectionIndex.
+	self installTransactionsSizeToTxProjectionIndex.

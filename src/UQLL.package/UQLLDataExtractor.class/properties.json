@@ -12,5 +12,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "UQLL-EQL-Interpreter"
+	"category" : "UQLL-SemanticAST-Interpreter"
 }

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLCollection",
+	"category" : "UQLL-Structural-Collections",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"directory"
+	],
+	"name" : "UQLLDirectoryBasedCollection",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 as yet unclassified
-resolveStaticValueOrBranchFor: aFogStreamsContractInstancesBufferArray
-	^ (aFogStreamsContractInstancesBufferArray source detect: [ :s | self = s key ]) value
+resolveStaticValueOrBranchFor: aFogStreamsContractInstancesCollectionArray
+	^ (aFogStreamsContractInstancesCollectionArray source detect: [ :s | self = s key ]) value

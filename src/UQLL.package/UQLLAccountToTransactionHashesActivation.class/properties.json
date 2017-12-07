@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLIndexBuilder",
-	"category" : "UQLL-IndexesGenerator",
+	"category" : "UQLL-Structural-Setup-Indexes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

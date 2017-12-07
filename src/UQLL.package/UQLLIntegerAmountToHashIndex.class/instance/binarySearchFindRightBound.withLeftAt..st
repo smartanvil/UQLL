@@ -2,7 +2,7 @@ accessing
 binarySearchFindRightBound: anInteger withLeftAt: left
 	| analysing next lower upper current |
 	lower := left.
-	upper := self data size.
+	upper := self size.
 	[ lower < upper ]
 		whileTrue: [ current := lower + ((upper - lower) // 2).
 			analysing := (self data at: current) at: 1.

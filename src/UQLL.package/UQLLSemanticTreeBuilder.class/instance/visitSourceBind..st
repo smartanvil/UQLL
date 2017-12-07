@@ -1,6 +1,6 @@
 as yet unclassified
 visitSourceBind: anEQLSourceBindNode
-	^ UQLLBufferSelector new
+	^ UQLLCollectionSelector new
 		binding: (anEQLSourceBindNode binding  acceptVisitor: self);
-		selector: (anEQLSourceBindNode buffer_name  acceptVisitor: self);
+		selector: (anEQLSourceBindNode Collection_name  acceptVisitor: self);
 		yourself .

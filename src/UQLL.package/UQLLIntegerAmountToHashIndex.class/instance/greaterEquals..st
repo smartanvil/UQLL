@@ -1,3 +1,3 @@
 comparing
 greaterEquals: aPoint
-	^ self interval: aPoint x to: self data size
+	^ self interval: aPoint x to: self  size

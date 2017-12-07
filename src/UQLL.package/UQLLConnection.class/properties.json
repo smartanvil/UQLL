@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "UQLL-EQL-Interpreter",
+	"category" : "UQLL-Structural-Connections",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

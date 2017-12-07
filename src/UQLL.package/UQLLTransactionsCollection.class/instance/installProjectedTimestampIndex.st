@@ -1,0 +1,3 @@
+initialization
+installProjectedTimestampIndex
+	environment register: self timestampIndexTag forIndexBasedOn: #TxBlockStampToBlockHash

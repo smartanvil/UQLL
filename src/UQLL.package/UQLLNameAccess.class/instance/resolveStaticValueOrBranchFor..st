@@ -1,3 +1,3 @@
 accessing
-resolveStaticValueOrBranchFor: aFogStreamsContractInstancesBufferArray
-	^ (aFogStreamsContractInstancesBufferArray source detect: [ :s | value  = s key ]) value
+resolveStaticValueOrBranchFor: aFogStreamsContractInstancesCollectionArray
+	^ (aFogStreamsContractInstancesCollectionArray source detect: [ :s | value  = s key ]) value

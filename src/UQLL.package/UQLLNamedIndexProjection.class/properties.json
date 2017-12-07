@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 12/5/2017 14:54",
+	"super" : "Object",
+	"category" : "UQLL-Structural-Indexes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"relatedIndexName",
+		"projector"
+	],
+	"name" : "UQLLNamedIndexProjection",
+	"type" : "normal"
+}

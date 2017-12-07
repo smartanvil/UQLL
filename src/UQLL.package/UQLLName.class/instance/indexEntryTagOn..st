@@ -1,3 +1,3 @@
 accessing
-indexEntryTagOn: aBuffer
+indexEntryTagOn: aCollection
 	^ ''
