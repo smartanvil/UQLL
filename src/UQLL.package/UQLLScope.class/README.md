@@ -1,0 +1,1 @@
+Scope is the most abstract and general implementation for name binding

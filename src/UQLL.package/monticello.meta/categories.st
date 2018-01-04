@@ -1,5 +1,8 @@
 SystemOrganization addCategory: #UQLL!
 SystemOrganization addCategory: 'UQLL-Errors'!
+SystemOrganization addCategory: 'UQLL-Ethereum-Collections'!
+SystemOrganization addCategory: 'UQLL-Ethereum-Indexes-Combinations'!
+SystemOrganization addCategory: 'UQLL-Ethereum-Setup-Indexes'!
 SystemOrganization addCategory: 'UQLL-SemanticAST'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-BinaryOperators'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-Interpreter'!
@@ -10,5 +13,4 @@ SystemOrganization addCategory: 'UQLL-Structural'!
 SystemOrganization addCategory: 'UQLL-Structural-Collections'!
 SystemOrganization addCategory: 'UQLL-Structural-Connections'!
 SystemOrganization addCategory: 'UQLL-Structural-Indexes'!
-SystemOrganization addCategory: 'UQLL-Structural-Indexes-Combinations'!
 SystemOrganization addCategory: 'UQLL-Structural-Setup-Indexes'!

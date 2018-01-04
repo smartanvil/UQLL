@@ -1,3 +1,3 @@
 accessing
 size
-	^ (environment indexAt: self hashIndexTag) size
+	^ (environment getIndexNamed: self hashIndexTag) size

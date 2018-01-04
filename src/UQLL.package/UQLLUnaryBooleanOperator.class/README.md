@@ -1,0 +1,1 @@
+Tipical basic unary boolean operations. Please add tests if you add a new operator

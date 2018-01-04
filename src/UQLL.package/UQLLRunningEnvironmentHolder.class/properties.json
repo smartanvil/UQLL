@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"default",
-		"connection"
+		"default"
 	],
 	"name" : "UQLLRunningEnvironmentHolder",
 	"type" : "normal"

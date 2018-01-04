@@ -1,0 +1,11 @@
+install - indexes
+installBuiltinIndexes
+	self installAccountHashIndex.
+	self installTimestampIndex.
+	self installTransactionsSizeIndex.
+	self installContractsHashIndex.
+	self installContractsAmountPerBlockIndex.
+	self installAccountHashToTransactionHashIndex.
+	self installContractHashToTransactionHashIndex.
+	self installTimeStampToTxProjectionIndex.
+	self installTransactionsSizeToTxProjectionIndex

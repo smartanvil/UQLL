@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 12/8/2017 16:53",
+	"super" : "Object",
+	"category" : "UQLL-Structural",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"names",
+		"parent"
+	],
+	"name" : "UQLLScope",
+	"type" : "normal"
+}

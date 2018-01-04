@@ -1,0 +1,1 @@
+Tipical basic binary boolean artimetics. Please add tests if you add a new operator

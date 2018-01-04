@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLScope",
+	"category" : "UQLL-Structural",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"functions"
+	],
+	"name" : "UQLLAbstractEnvironment",
+	"type" : "normal"
+}

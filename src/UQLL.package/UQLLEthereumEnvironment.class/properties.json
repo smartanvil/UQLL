@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLAbstractEnvironment",
+	"category" : "UQLL-Structural",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"connection"
+	],
+	"name" : "UQLLEthereumEnvironment",
+	"type" : "normal"
+}

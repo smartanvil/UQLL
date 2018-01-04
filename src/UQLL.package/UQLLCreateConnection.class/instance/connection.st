@@ -1,3 +1,6 @@
-as yet unclassified
+accessing
 connection
-	^ connection
+	^ (self selectConnectionClass: url scheme) new
+		url: url;
+		name: name;
+		yourself

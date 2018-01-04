@@ -1,3 +1,3 @@
 accessing
 all
-	^ (environment indexAt: self timestampIndexTag) all
+	^ (environment getIndexNamed: self timestampIndexTag) all

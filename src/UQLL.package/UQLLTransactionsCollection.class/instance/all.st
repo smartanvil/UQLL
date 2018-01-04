@@ -1,3 +1,5 @@
 initialization
 all
-	^ all ifNil: [ all := (environment indexAt: self transactionSizeIndexTag) data flatCollect: [ :d | self generateEntriesFor: d ] ]
+	^ all
+		ifNil: [ all := (environment getIndexNamed: self transactionSizeIndexTag) data
+				flatCollect: [ :d | self generateEntriesFor: d ] ]

@@ -1,0 +1,3 @@
+equality
+valuesToCompareForEquality 
+	^ { url . name }

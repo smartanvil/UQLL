@@ -1,0 +1,1 @@
+It negates as operation (true not )

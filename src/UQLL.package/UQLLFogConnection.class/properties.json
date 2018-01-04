@@ -1,13 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "FogCachedConnection",
-	"category" : "UQLL-Structural-Connections",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TEquality classTrait",
 	"classvars" : [ ],
 	"instvars" : [
+		"name",
 		"environment"
 	],
 	"name" : "UQLLFogConnection",
-	"type" : "normal"
+	"commentStamp" : "SantiagoBragagnolo 1/4/2018 12:45",
+	"super" : "FogCachedConnection",
+	"traitcomposition" : "TEquality",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "UQLL-Structural-Connections"
 }

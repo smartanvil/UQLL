@@ -1,0 +1,1 @@
+It operates to booleans by the boolean conjugation or 

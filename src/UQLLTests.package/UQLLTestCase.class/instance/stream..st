@@ -1,4 +1,3 @@
 accessing
 stream: aQuery
-	^ UQLLStreamBuilder buildStream: (UQLLSemanticTreeBuilder buildSemanticTree: aQuery)
-	
+	^ UQLLStreamCompiler buildStreamUnsafe: (UQLLSemanticTreeBuilder buildSemanticTree: aQuery)

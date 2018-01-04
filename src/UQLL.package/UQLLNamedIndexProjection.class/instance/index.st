@@ -1,5 +1,5 @@
 accessing
 index
 	^ projector
-		index: (UQLLRunningEnvironmentHolder value indexInstanceFor: relatedIndexName);
+		index: (UQLLRunningEnvironmentHolder value getIndexNamed: relatedIndexName);
 		yourself

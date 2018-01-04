@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLDirectoryBasedCollection",
-	"category" : "UQLL-Structural-Collections",
+	"category" : "UQLL-Ethereum-Collections",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

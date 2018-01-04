@@ -1,3 +1,3 @@
 resolveingIds
 all
-	^ (environment indexAt: self hashIndexTag) all
+	^ (environment getIndexNamed: self hashIndexTag) all

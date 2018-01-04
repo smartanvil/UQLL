@@ -1,0 +1,1 @@
+Tipical basic unary arithmetics. Negation ( - 1 --1, etc ) 

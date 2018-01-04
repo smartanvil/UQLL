@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"connection"
+		"name",
+		"url"
 	],
 	"name" : "UQLLCreateConnection",
 	"type" : "normal"

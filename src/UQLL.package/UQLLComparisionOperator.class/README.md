@@ -1,0 +1,1 @@
+Tipical basic comparisions. Please add tests if you add a new operator

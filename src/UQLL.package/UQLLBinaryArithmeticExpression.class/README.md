@@ -1,0 +1,1 @@
+Tipical basic arithmetics. Please add tests if you add a new operator

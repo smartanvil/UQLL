@@ -1,3 +1,3 @@
 initialization
 testHasNotDomain
-	self assert: ast domain species  equals: UQLLEnvironment.
+	self assert: ast domain species  equals: UQLLGeneralEnvironment.

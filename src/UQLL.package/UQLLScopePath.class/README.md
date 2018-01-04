@@ -1,0 +1,1 @@
+a ScopePath allows to navigate the tree of environments 

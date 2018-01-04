@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLIndexBuilder",
-	"category" : "UQLL-Structural-Setup-Indexes",
+	"category" : "UQLL-Ethereum-Setup-Indexes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,0 +1,3 @@
+*UQLL
+isScope
+	^ false
