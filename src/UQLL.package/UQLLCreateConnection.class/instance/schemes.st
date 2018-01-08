@@ -1,3 +1,3 @@
 accessing
 schemes
-	^ {(#eth -> UQLLFogConnection)} asDictionary
+	^ {(#ethereum -> UQLLFogConnection)} asDictionary

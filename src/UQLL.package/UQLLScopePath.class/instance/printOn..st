@@ -1,6 +1,5 @@
-arithmetic
+printing
 printOn: aStream
 	^ self
 		do: [ :t | 
-			aStream nextPutAll: '/'.
-			t printOn: aStream ]
+			aStream nextPutAll: t asString; nextPutAll: '.' ]

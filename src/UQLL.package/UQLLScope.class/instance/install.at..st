@@ -1,3 +1,3 @@
 accessing
 install: anObject at: aScopePath
-	^ (self get: aScopePath parent) privateAt: aScopePath basename put: anObject 
+	^ (self get: aScopePath parent) privateAt: aScopePath asScopePath basename put: anObject

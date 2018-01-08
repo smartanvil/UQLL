@@ -1,3 +1,3 @@
 accessing
-data: aCollection 
-	data := aCollection
+data: aCollection
+	data := self transform: aCollection

@@ -1,0 +1,3 @@
+*UQLL
+isScopePath
+	^ false 

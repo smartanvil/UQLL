@@ -1,6 +1,6 @@
 accessing
 connection
-	^ (self selectConnectionClass: url scheme) new
+	^ (self selectConnectionClass: type) new
 		url: url;
 		name: name;
 		yourself

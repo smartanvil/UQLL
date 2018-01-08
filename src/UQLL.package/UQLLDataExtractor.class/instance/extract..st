@@ -1,3 +1,3 @@
 as yet unclassified
-extract: aCollection 
-	^ name extract: aCollection 
+extract: aCollection
+	^ name valueWithDictionaryArguments: aCollection

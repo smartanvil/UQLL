@@ -1,3 +1,0 @@
-conversion
-asScopePath
-	^ value asScopePath
