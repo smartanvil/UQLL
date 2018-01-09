@@ -8,7 +8,8 @@
 	"instvars" : [
 		"name",
 		"relatedIndexName",
-		"projector"
+		"projector",
+		"environment"
 	],
 	"name" : "UQLLNamedIndexProjection",
 	"type" : "normal"

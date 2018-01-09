@@ -1,11 +1,11 @@
-as yet unclassified
+printing
 valueWithDictionaryArguments: aCollection
 	| argumentsToUse |
 	^ self needsBinding
 		ifTrue: [ argumentsToUse := arguments
 				collect: [ :a | 
-					(a isFogName or: [ a isEQLMethod ])
+					a needsBinding
 						ifTrue: [ a valueWithDictionaryArguments: aCollection ]
-						ifFalse: [ a ] ].
-			self reduceUsing: argumentsToUse and: (self receiverFor: aCollection) ]
-		ifFalse: [ self reduce ]
+						ifFalse: [ a value ] ].
+			self sendTo: (self receiverFor: aCollection) valueWithArguments: argumentsToUse ]
+		ifFalse: [ self value ]

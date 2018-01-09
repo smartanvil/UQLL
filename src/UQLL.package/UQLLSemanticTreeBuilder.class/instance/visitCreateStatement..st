@@ -1,5 +1,5 @@
 as yet unclassified
 visitCreateStatement: anEQLCreateStatementNode
-	^ UQLLUserCollectionDefinition new
+	^ UQLLCreateCollectionDefinition new
 		source: (anEQLCreateStatementNode selection acceptVisitor: self);
 		yourself

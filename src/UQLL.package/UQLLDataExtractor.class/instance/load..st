@@ -1,3 +1,3 @@
 configuration
-load: aUQLLName 
-	name := aUQLLName 
+load: aScopePath 
+	name := aScopePath 

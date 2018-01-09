@@ -1,3 +1,3 @@
 *UQLL
-isFogName
+needsBinding
 	^ false 

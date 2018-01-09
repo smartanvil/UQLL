@@ -2,7 +2,6 @@
 	"classtraitcomposition" : "TEquality classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"loader",
 		"name"
 	],
 	"name" : "UQLLDataExtractor",
@@ -12,5 +11,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "UQLL-SemanticAST-Interpreter"
+	"category" : "UQLL-SemanticAST-Select"
 }

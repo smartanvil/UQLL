@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "SantiagoBragagnolo 8/14/2017 23:24",
 	"super" : "UQLLSemanticNode",
-	"category" : "UQLL-SemanticAST",
+	"category" : "UQLL-SemanticAST-Select",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

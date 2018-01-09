@@ -2,7 +2,9 @@ install - indexes
 installTransactionsSizeToTxProjectionIndex
 	self
 		installIndex:
-			(UQLLNamedIndexProjection
+			((UQLLNamedIndexProjection
 				named: #TxAmountOfTransactionsToBlockHash
 				relatedIndexName: #AmountOfTransactionsToBlockHash
 				with: UQLLTxSizeToTxProjector new)
+				environment: self;
+				yourself)

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLSetStream",
-	"category" : "UQLL-SemanticAST-Interpreter",
+	"category" : "UQLL-Streams",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

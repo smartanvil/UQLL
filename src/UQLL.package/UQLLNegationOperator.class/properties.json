@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "SantiagoBragagnolo 1/4/2018 17:30",
 	"super" : "UQLLUnaryArithmeticOperator",
-	"category" : "UQLL-SemanticAST-UnaryOperators",
+	"category" : "UQLL-SemanticAST-OperatorsUnary",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

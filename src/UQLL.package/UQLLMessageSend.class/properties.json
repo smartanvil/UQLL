@@ -1,13 +1,16 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "UQLL-SemanticAST-Interpreter",
+	"category" : "UQLL-SemanticAST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"filter"
+		"receiver",
+		"name",
+		"arguments",
+		"selector"
 	],
-	"name" : "UQLLFilterVisitor",
+	"name" : "UQLLMessageSend",
 	"type" : "normal"
 }

@@ -2,7 +2,9 @@ install - indexes
 installTimeStampToTxProjectionIndex
 	self
 		installIndex:
-			(UQLLNamedIndexProjection
+			((UQLLNamedIndexProjection
 				named: #TxBlockStampToBlockHash
 				relatedIndexName: #BlockStampToBlockHash
 				with: UQLLBlockTimestampToTxProjector new)
+				environment: self;
+				yourself)

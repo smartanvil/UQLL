@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLSemanticNode",
-	"category" : "UQLL-SemanticAST",
+	"category" : "UQLL-SemanticAST-Select",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

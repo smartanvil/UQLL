@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLTestCase",
-	"category" : "UQLLTests",
+	"category" : "UQLLTests-StreamCompilation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

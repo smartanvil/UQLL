@@ -1,3 +1,3 @@
 *UQLL
-isScopePath
+needsBinding
 	^ false 

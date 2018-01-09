@@ -1,3 +1,0 @@
-*UQLL
-isEQLMethod
-	^ false 

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "UQLLBinaryOperator",
-	"category" : "UQLL-SemanticAST-BinaryOperators",
+	"category" : "UQLL-SemanticAST-OperatorsBinary",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

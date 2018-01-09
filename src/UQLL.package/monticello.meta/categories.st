@@ -4,9 +4,12 @@ SystemOrganization addCategory: 'UQLL-Ethereum-Collections'!
 SystemOrganization addCategory: 'UQLL-Ethereum-Indexes-Combinations'!
 SystemOrganization addCategory: 'UQLL-Ethereum-Setup-Indexes'!
 SystemOrganization addCategory: 'UQLL-SemanticAST'!
-SystemOrganization addCategory: 'UQLL-SemanticAST-BinaryOperators'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-CreateConnection'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-Interpreter'!
-SystemOrganization addCategory: 'UQLL-SemanticAST-UnaryOperators'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-OperatorsBinary'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-OperatorsSet'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-OperatorsUnary'!
+SystemOrganization addCategory: 'UQLL-SemanticAST-Select'!
 SystemOrganization addCategory: 'UQLL-Streams'!
 SystemOrganization addCategory: 'UQLL-Streams-Filters'!
 SystemOrganization addCategory: 'UQLL-Structural'!

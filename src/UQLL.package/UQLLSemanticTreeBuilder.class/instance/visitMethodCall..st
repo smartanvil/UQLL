@@ -7,7 +7,7 @@ visitMethodCall: anEQLMethodCallNode
 			receiver members: anEQLMethodCallNode members.
 			anEQLMethodCallNode members: OrderedCollection new.
 			anEQLMethodCallNode value: receiver ].
-	^ UQLLMethodCall new
+	^ UQLLMessageSendCall new
 		receiver: (anEQLMethodCallNode value acceptVisitor: self);
 		selector: (anEQLMethodCallNode selector acceptVisitor: self);
 		arguments: (anEQLMethodCallNode arguments acceptVisitor: self);

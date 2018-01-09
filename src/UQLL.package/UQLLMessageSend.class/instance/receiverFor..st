@@ -1,5 +1,5 @@
 testing
 receiverFor: aCollection
-	^ self receiverNeedsBinding
+	^ receiver needsBinding
 		ifTrue: [ receiver valueWithDictionaryArguments: aCollection asDictionary ]
 		ifFalse: [ receiver ]
