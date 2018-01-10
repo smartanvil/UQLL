@@ -1,3 +1,3 @@
-configuration
+accessing
 load: aScopePath 
-	name := aScopePath 
+	load := aScopePath 

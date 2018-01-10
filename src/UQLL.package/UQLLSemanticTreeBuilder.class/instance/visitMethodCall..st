@@ -2,7 +2,10 @@ visiting
 visitMethodCall: anEQLMethodCallNode
 	| receiver |
 	anEQLMethodCallNode members isEmpty
-		ifTrue: [ receiver := EQLMemberAccessNode new.
+		ifFalse: [ 
+			self halt. 
+			receiver := anEQLMethodCallNode value acceptVisitor: self.
+			"ATTACHE MEMBERS AFTER! "
 			receiver value: anEQLMethodCallNode value.
 			receiver members: anEQLMethodCallNode members.
 			anEQLMethodCallNode members: OrderedCollection new.

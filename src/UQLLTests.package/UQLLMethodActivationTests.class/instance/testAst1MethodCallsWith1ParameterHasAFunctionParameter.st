@@ -1,0 +1,3 @@
+ast-tests
+testAst1MethodCallsWith1ParameterHasAFunctionParameter
+	self error: 'implement'

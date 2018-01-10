@@ -1,3 +1,3 @@
 as yet unclassified
-needBinding
-	^ true
+loader
+	^ load

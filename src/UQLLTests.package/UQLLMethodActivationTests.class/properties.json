@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLTestCase",
+	"category" : "UQLLTests-SemanticExpressions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ast",
+		"stream"
+	],
+	"name" : "UQLLMethodActivationTests",
+	"type" : "normal"
+}

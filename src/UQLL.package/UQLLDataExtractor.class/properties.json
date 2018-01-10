@@ -2,7 +2,8 @@
 	"classtraitcomposition" : "TEquality classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"name",
+		"load"
 	],
 	"name" : "UQLLDataExtractor",
 	"commentStamp" : "",

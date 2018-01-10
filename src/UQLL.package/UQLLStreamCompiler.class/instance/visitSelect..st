@@ -10,8 +10,9 @@ visitSelect: aUQLLSelect
 		source: source;
 		outline:
 			(aUQLLSelect select
-				collect: [ :n | 
+				collect: [ :n |  
 					UQLLDataExtractor new
+						name: n printString ;
 						load: (n acceptVisitor: self);
 						yourself ]);
 		yourself
