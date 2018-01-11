@@ -1,17 +1,19 @@
 visiting
 visitMethodCall: anEQLMethodCallNode
-	| receiver |
-	anEQLMethodCallNode members isEmpty
-		ifFalse: [ 
-			self halt. 
-			receiver := anEQLMethodCallNode value acceptVisitor: self.
-			"ATTACHE MEMBERS AFTER! "
-			receiver value: anEQLMethodCallNode value.
-			receiver members: anEQLMethodCallNode members.
-			anEQLMethodCallNode members: OrderedCollection new.
-			anEQLMethodCallNode value: receiver ].
-	^ UQLLMessageSendCall new
-		receiver: (anEQLMethodCallNode value acceptVisitor: self);
-		selector: (anEQLMethodCallNode selector acceptVisitor: self);
-		arguments: (anEQLMethodCallNode arguments acceptVisitor: self);
-		yourself
+	| receiver msgsends chain |
+	msgsends := (anEQLMethodCallNode members collect: [ :m | m acceptVisitor: self ]) , {(anEQLMethodCallNode selector acceptVisitor: self)}.
+	chain := msgsends allButFirst
+		inject:
+			(UQLLMessageSendCall new
+				receiver: (anEQLMethodCallNode value acceptVisitor: self);
+				selector: msgsends first;
+				arguments: {  }
+				yourself)
+		into: [ :prev :each | 
+			UQLLMessageSendCall new
+				receiver: prev;
+				selector: each;
+				arguments: {  }
+				yourself ].
+	chain arguments: (anEQLMethodCallNode arguments acceptVisitor: self).
+	^ chain

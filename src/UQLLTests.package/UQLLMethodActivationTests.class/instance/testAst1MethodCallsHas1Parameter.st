@@ -1,3 +1,3 @@
 ast-tests
 testAst1MethodCallsHas1Parameter
-	self error: 'implement'
+	self assert: ((ast at: 1) select select: [ :s | s arguments size = 1 ]) size equals: 1

@@ -8,6 +8,6 @@ privateGet: aScopePath
 			[ self assert: pragma size = 1 ]
 				on: Error
 				do:
-					[ UQLLError signal: aScopePath printString , ' Not implemented method / function ' , self asSymbol ].
+					[ UQLLError signal: aScopePath printString , ' Not implemented method / function ' , self printString ].
 			pragma first method selector ].
 	^ MessageSend receiver: self selector: selector
