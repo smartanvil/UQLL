@@ -1,19 +1,19 @@
 visiting
 visitMethodCall: anEQLMethodCallNode
-	| receiver msgsends chain |
-	msgsends := (anEQLMethodCallNode members collect: [ :m | m acceptVisitor: self ]) , {(anEQLMethodCallNode selector acceptVisitor: self)}.
+	| msgsends chain |
+	msgsends := (anEQLMethodCallNode members
+		collect: [ :m | m acceptVisitor: self ])
+		, {(anEQLMethodCallNode selector acceptVisitor: self)}.
 	chain := msgsends allButFirst
 		inject:
-			(UQLLMessageSendCall new
+			(UQLLMessageSend new
 				receiver: (anEQLMethodCallNode value acceptVisitor: self);
 				selector: msgsends first;
-				arguments: {  }
-				yourself)
+				arguments: {} yourself)
 		into: [ :prev :each | 
-			UQLLMessageSendCall new
+			UQLLMessageSend new
 				receiver: prev;
 				selector: each;
-				arguments: {  }
-				yourself ].
+				arguments: {} yourself ].
 	chain arguments: (anEQLMethodCallNode arguments acceptVisitor: self).
 	^ chain

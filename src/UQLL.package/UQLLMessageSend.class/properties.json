@@ -1,15 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UQLLFunctionCall",
 	"category" : "UQLL-SemanticAST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"receiver",
-		"name",
-		"arguments",
-		"selector"
+		"receiver"
 	],
 	"name" : "UQLLMessageSend",
 	"type" : "normal"

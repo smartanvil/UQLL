@@ -1,3 +1,3 @@
 as yet unclassified
-receiver: anObject 
-	receiver := anObject
+receiver: aUQLLName
+	receiver := aUQLLName

@@ -1,3 +1,3 @@
 compiled-stream-test
 testCompiledStreamHasOneMessageSendThatNeedsToBeBinded
-	self assert: ((stream instVarNamed: #dataProjection) detect: [ :s | s loader isKindOf: UQLLMessageSend ]) loader needsBinding
+	self assert: ((stream instVarNamed: #dataProjection) detect: [ :s | s loader isKindOf: UQLLMethodActivation ]) loader needsBinding

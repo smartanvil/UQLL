@@ -1,7 +1,7 @@
 visiting
-visitMethodCall: aUQLLMethodCall
+visitMessageSend: aUQLLMethodCall
 	| method |
-	method := UQLLMessageSend new
+	method := UQLLMethodActivation new
 		receiver: (aUQLLMethodCall receiver  acceptVisitor: self);
 		selector: (aUQLLMethodCall selector acceptVisitor: self);
 		arguments: (aUQLLMethodCall arguments collect: [ :a | a acceptVisitor: self ]);
