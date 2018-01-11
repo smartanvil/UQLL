@@ -1,0 +1,1 @@
+Function calls represents the call to a function. Its mean to be bound during the stream compilation 

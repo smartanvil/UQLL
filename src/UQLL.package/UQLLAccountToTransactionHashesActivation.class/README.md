@@ -1,0 +1,1 @@
+Account -> transaction hash activation ( given an account it respnds in which transactions has been used )

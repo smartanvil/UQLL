@@ -1,0 +1,1 @@
+Method activations is the natural transformation of a message send/ function call. It understand how to execute and if it needs to be bounded with a result for being executed 

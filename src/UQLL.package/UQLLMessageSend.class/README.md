@@ -1,0 +1,1 @@
+Message send  represents the send of a message. Its mean to be bound during the stream compilation 

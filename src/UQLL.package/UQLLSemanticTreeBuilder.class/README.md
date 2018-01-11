@@ -1,0 +1,1 @@
+This interpreter takes a sintax AST and transform it into a semantic AST as first step. 

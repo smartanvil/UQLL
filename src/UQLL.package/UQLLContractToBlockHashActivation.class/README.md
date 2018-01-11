@@ -1,0 +1,1 @@
+Contract -> block hash activation ( given a contract it respnds in which blocks has been used )

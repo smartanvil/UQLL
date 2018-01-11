@@ -1,0 +1,1 @@
+This interpreter transforms a semantic AST into a stream configured for responding to the asked query 

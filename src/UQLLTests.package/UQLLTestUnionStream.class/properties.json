@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "UQLLTests-Scopes",
+	"category" : "UQLLTests-Streams",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"environment"
-	],
-	"name" : "UQLLScopeTests",
+	"instvars" : [ ],
+	"name" : "UQLLTestUnionStream",
 	"type" : "normal"
 }
