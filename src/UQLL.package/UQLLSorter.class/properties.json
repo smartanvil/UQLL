@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "UQLLSemanticNode",
-	"category" : "UQLL-SemanticAST-Select",
+	"super" : "Object",
+	"category" : "UQLL-SemanticAST-Interpreter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"expression",
-		"order"
+		"expression"
 	],
-	"name" : "UQLLOrderBy",
+	"name" : "UQLLSorter",
 	"type" : "normal"
 }

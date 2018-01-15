@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSorter",
+	"category" : "UQLL-SemanticAST-Interpreter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLDescendingSort",
+	"type" : "normal"
+}

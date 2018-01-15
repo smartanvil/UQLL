@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "UQLLArbitraryCollections",
-	"category" : "UQLLTests-Streams",
+	"super" : "UQLLSorter",
+	"category" : "UQLL-SemanticAST-Interpreter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "UQLLTestSortedStream",
+	"name" : "UQLLAscendingSort",
 	"type" : "normal"
 }
