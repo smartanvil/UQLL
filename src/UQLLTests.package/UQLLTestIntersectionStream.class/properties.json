@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "UQLLArbitraryCollections",
 	"category" : "UQLLTests-Streams",
 	"classinstvars" : [ ],
 	"pools" : [ ],

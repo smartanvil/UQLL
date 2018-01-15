@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "UQLLArbitraryCollections",
+	"super" : "UQLLTestCase",
 	"category" : "UQLLTests-Streams",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "UQLLTestLimitedStream",
+	"instvars" : [
+		"ast",
+		"stream"
+	],
+	"name" : "UQLLArbitraryCollections",
 	"type" : "normal"
 }
