@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 next: anInteger
 	| aCollection |
 	aCollection := OrderedCollection new.

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 1/16/2018 15:09",
 	"super" : "UQLLStream",
 	"category" : "UQLL-Streams",
 	"classinstvars" : [ ],
@@ -9,6 +9,6 @@
 		"index",
 		"position"
 	],
-	"name" : "UQLLResultStream",
+	"name" : "UQLLIndexableCollectionStream",
 	"type" : "normal"
 }

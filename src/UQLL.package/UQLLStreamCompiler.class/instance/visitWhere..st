@@ -1,5 +1,5 @@
 visiting
 visitWhere: aUQLLWhere
-	^ UQLLFilteredResultStream new
+	^ UQLLFilteredStream new
 		filter: (aUQLLWhere filter acceptVisitor: self);
 		yourself

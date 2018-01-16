@@ -1,0 +1,1 @@
+An uqll stream is a decorable stream that allows compositions.Filtered stream is a stream that is configurable with a filtering object.

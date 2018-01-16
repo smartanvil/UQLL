@@ -1,3 +1,4 @@
 initialization
 testProjectionStreamIsOrderedStream
-	self assert: (stream isKindOf: UQLLOrderedStream )
+	self assert: (stream isKindOf: UQLLProjectionStream).
+	self assert: (stream source isKindOf: UQLLOrderedStream)

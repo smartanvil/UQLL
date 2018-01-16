@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "UQLLResultStream",
+	"commentStamp" : "SantiagoBragagnolo 1/16/2018 15:15",
+	"super" : "UQLLStream",
 	"category" : "UQLL-Streams",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"filter"
 	],
-	"name" : "UQLLFilteredResultStream",
+	"name" : "UQLLFilteredStream",
 	"type" : "normal"
 }

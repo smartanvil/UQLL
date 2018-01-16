@@ -1,6 +1,7 @@
 initialization
 setUp
 	super setUp.
+	self timeLimit: 5 minute.
 	UQLLRunningEnvironmentHolder
 		value:
 			(UQLLGeneralEnvironment new

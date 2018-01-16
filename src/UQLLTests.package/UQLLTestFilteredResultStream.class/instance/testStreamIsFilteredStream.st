@@ -1,4 +1,4 @@
 initialization
 testStreamIsFilteredStream
 
-	self assert: (stream source isKindOf: UQLLFilteredResultStream)
+	self assert: (stream source isKindOf: UQLLFilteredStream)

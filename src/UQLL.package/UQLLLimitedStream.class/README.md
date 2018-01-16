@@ -1,0 +1,1 @@
+An uqll stream is a decorable stream that allows compositions. Limited stream limits the amount of responses to a given 'limit' configuration 

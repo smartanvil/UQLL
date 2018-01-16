@@ -1,0 +1,1 @@
+A set stream takes 2 collections with whoms it creates a stream 

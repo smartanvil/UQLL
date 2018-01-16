@@ -1,0 +1,2 @@
+A result stream is a a mix of a source, the indexation of this source (sometimes a simple interval ranging an array, sometimes an array of hashes or a tree) and a position in this index. 
+In this stream, instead of the others, the source is considered to by a direct access structure (array, collection etc) and not a stream 

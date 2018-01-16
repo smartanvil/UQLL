@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 next
 	self atEnd
 		ifTrue: [ ^ nil ].

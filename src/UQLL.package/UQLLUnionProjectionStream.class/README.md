@@ -1,0 +1,1 @@
+A set stream takes 2 streams with whoms it creates a stream with the union of the streams

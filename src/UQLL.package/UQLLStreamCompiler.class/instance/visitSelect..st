@@ -1,19 +1,14 @@
 visiting
 visitSelect: aUQLLSelect
-	| source ordered return |
+	| source ordered |
 	environment := aUQLLSelect domain.
 	source := aUQLLSelect from acceptVisitor: self.
 	source := self composeSource: source withAstNode: aUQLLSelect where.
 	source := self composeSource: source withAstNode: aUQLLSelect limit.
-	ordered := aUQLLSelect orderBy acceptVisitor: self.
-	return := ordered
-		ifNil: [ UQLLProjectionStream new ]
-		ifNotNil: [ UQLLOrderedStream new
-				orderBy: ordered;
-				yourself ].
-	^ return
+	source := self composeSource: source withAstNode: aUQLLSelect orderBy.
+	^ UQLLProjectionStream new
 		source: source;
-		outline:
+		project:
 			(aUQLLSelect select
 				collect: [ :n | 
 					UQLLDataExtractor new

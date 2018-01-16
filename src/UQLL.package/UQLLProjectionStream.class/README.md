@@ -1,0 +1,1 @@
+An uqll  stream is a decorable stream that allows compositions. Projection stream allows the configuration of a collection of UQLLDataExtractors (that understand #extract: with the inner stream element as parameter). 

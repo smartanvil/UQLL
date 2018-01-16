@@ -1,11 +1,14 @@
 visiting
 visitOrderBy: anUQLLOrderBy
-	| create |
+	| create sorter |
 	create := (anUQLLOrderBy order ifNil: [ #asc ]) asSymbol.
-	^ (UQLLSorter perform: create)
+	sorter := create value: UQLLSorter.
+	sorter
 		expression:
 			(UQLLDataExtractor new
 				load: anUQLLOrderBy expression;
 				name: 'Order';
-				yourself);
+				yourself).
+	^ UQLLOrderedStream new
+		orderBy: sorter;
 		yourself

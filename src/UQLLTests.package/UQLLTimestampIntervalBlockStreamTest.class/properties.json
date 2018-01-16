@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "UQLL-Structural-Setup-Indexes",
+	"category" : "UQLLTests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,3 +1,3 @@
 initialization
 testStreamSourceIsResultStream
-	self assert: (stream source isKindOf: UQLLResultStream  )
+	self assert: (stream source isKindOf: UQLLIndexableCollectionStream  )
