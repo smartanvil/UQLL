@@ -1,0 +1,3 @@
+resolving
+resolveStaticValueOrBranchFor: aFogStreamsContractInstancesCollection
+	^ self indexEntriesFor: aFogStreamsContractInstancesCollection

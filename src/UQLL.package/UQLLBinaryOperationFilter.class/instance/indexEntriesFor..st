@@ -7,4 +7,7 @@ indexEntriesFor: aFogStreamsContractInstancesCollection
 		ifTrue: [ ^ leftValue resolve: operationSymbol forLeft: left withRight: rightValue ].
 	(leftValue isDatasource not and: [ rightValue isDatasource ])
 		ifTrue: [ ^ rightValue resolve: self operation withLeft: leftValue forRight: right ].
-	^ leftValue mergeBy: self operation withRight: rightValue
+	(leftValue needsBinding or: [ rightValue needsBinding ])
+		ifTrue: [ self assert: aFogStreamsContractInstancesCollection size = 1.
+			^ aFogStreamsContractInstancesCollection first value all ].
+	^ self mergeLeft: leftValue withRight: rightValue

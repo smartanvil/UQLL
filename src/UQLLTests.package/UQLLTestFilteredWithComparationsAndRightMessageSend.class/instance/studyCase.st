@@ -2,4 +2,4 @@ initialization
 studyCase
 	^ 'select instance
 	from instance in Numbers1to20
-	where instance > 10.yourself()s;'
+	where instance > 10.yourself();'
