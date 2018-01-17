@@ -1,0 +1,1 @@
+I do represent the union in between sets (queries results)

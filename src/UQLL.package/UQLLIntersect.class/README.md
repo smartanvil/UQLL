@@ -1,0 +1,1 @@
+I do represent the intersection in between sets (queries results)

@@ -1,0 +1,1 @@
+Set nodes represent set operations in between queries. s

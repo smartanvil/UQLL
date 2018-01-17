@@ -12,6 +12,7 @@ SystemOrganization addCategory: 'UQLL-SemanticAST-OperatorsUnary'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-Select'!
 SystemOrganization addCategory: 'UQLL-Streams'!
 SystemOrganization addCategory: 'UQLL-Streams-Filters'!
+SystemOrganization addCategory: 'UQLL-Streams-Sorter'!
 SystemOrganization addCategory: 'UQLL-Structural'!
 SystemOrganization addCategory: 'UQLL-Structural-Collections'!
 SystemOrganization addCategory: 'UQLL-Structural-Connections'!
