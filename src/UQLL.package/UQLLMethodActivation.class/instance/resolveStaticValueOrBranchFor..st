@@ -1,4 +1,4 @@
-as yet unclassified
+resolving
 resolveStaticValueOrBranchFor: aUQLLResultStream
 	^ self needsBinding not
 		ifTrue: [ self value ]

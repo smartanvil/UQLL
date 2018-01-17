@@ -1,6 +1,7 @@
 SystemOrganization addCategory: #UQLL!
 SystemOrganization addCategory: 'UQLL-Errors'!
 SystemOrganization addCategory: 'UQLL-Ethereum-Collections'!
+SystemOrganization addCategory: 'UQLL-Ethereum-Connections'!
 SystemOrganization addCategory: 'UQLL-Ethereum-Indexes-Combinations'!
 SystemOrganization addCategory: 'UQLL-Ethereum-Setup-Indexes'!
 SystemOrganization addCategory: 'UQLL-SemanticAST'!
@@ -11,7 +12,9 @@ SystemOrganization addCategory: 'UQLL-SemanticAST-OperatorsSet'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-OperatorsUnary'!
 SystemOrganization addCategory: 'UQLL-SemanticAST-Select'!
 SystemOrganization addCategory: 'UQLL-Streams'!
+SystemOrganization addCategory: 'UQLL-Streams-Extractor'!
 SystemOrganization addCategory: 'UQLL-Streams-Filters'!
+SystemOrganization addCategory: 'UQLL-Streams-MessageActivation'!
 SystemOrganization addCategory: 'UQLL-Streams-Sorter'!
 SystemOrganization addCategory: 'UQLL-Structural'!
 SystemOrganization addCategory: 'UQLL-Structural-Collections'!

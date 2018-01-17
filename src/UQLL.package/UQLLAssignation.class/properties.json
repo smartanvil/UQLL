@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 1/17/2018 15:55",
 	"super" : "UQLLBinaryOperator",
 	"category" : "UQLL-SemanticAST-OperatorsBinary",
 	"classinstvars" : [ ],

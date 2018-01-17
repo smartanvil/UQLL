@@ -1,0 +1,1 @@
+Basic abstract collection. This collection implements the minimal needed for queries resolution into a collection

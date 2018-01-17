@@ -1,0 +1,1 @@
+I do represent the assignation of a value. Not yet really implemented. I may should get the hell out of here :D 

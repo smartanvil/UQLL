@@ -1,0 +1,1 @@
+I am an specific ethereum environment. I know what built-in collections and indexes are needed for accessing ethereum information 

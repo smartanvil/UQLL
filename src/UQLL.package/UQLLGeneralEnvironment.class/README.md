@@ -1,0 +1,1 @@
+I am a general environment. The root of the environment trees. I do have some meta -data tables. New environments are installed into this environment 

@@ -6,11 +6,11 @@
 		"load"
 	],
 	"name" : "UQLLDataExtractor",
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 1/17/2018 16:09",
 	"super" : "Object",
 	"traitcomposition" : "TEquality",
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "UQLL-SemanticAST-Select"
+	"category" : "UQLL-Streams-Extractor"
 }

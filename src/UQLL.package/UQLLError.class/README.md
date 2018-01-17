@@ -1,0 +1,1 @@
+Error from UQLL. Used specially on tests for known errors. 

@@ -1,0 +1,1 @@
+I do represent a stream limitation in a query 

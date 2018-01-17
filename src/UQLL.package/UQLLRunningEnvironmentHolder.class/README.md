@@ -1,0 +1,1 @@
+I am the general environment holder (Singleton) Based on dynamic variable. 

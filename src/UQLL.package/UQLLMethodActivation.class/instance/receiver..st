@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 receiver: anObject 
 	receiver := anObject

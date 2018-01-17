@@ -1,0 +1,1 @@
+I do represent a creation statement. I do add a new collection to the given  environment. 
