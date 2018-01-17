@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-Streams-Filters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"operation",
+		"right"
+	],
+	"name" : "UQLLUnaryOperationFilter",
+	"type" : "normal"
+}

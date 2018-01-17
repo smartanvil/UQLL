@@ -1,0 +1,3 @@
+visiting
+visitParenthesisArithmeticExpression: anUQLParenthesisArithmeticExpressionNode 
+	^ anUQLParenthesisArithmeticExpressionNode exp acceptVisitor: self 
