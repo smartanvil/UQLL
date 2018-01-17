@@ -1,0 +1,1 @@
+This operation filter works with unary expressions as #not and #reverse (!, -)

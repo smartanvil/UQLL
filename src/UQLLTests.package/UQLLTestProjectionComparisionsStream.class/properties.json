@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLArbitraryCollections",
+	"category" : "UQLLTests-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLTestProjectionComparisionsStream",
+	"type" : "normal"
+}
