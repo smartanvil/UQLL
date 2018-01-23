@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 1/23/2018 13:51",
+	"super" : "Object",
+	"category" : "UQLL-QueryExamples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLQueryExamples",
+	"type" : "normal"
+}
