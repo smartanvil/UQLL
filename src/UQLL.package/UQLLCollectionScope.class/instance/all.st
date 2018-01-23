@@ -1,0 +1,3 @@
+indexing
+all
+	^ names keys
