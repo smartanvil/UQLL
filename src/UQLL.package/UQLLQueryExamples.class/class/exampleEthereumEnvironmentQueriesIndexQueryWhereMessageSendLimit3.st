@@ -1,4 +1,4 @@
-examples
+examples-ethereum
 exampleEthereumEnvironmentQueriesIndexQueryWhereMessageSendLimit3
 	<example>
 	self ensureEthereum.

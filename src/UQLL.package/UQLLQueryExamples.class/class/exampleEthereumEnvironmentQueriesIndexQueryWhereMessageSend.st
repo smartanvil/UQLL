@@ -1,4 +1,4 @@
-examples
+examples-ethereum
 exampleEthereumEnvironmentQueriesIndexQueryWhereMessageSend
 	<example>
 	self ensureEthereum.

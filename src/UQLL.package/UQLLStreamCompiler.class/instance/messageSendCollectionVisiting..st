@@ -1,0 +1,3 @@
+creating
+messageSendCollectionVisiting: anUQLLSelect
+	^ self class messageSendCollectionVisiting: anUQLLSelect

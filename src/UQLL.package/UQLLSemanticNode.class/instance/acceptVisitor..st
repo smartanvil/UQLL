@@ -1,3 +1,3 @@
 visiting
 acceptVisitor: aVisitor
-	^ self subclassResponsibility 
+	^ aVisitor visitCreateCollection: self 
