@@ -1,5 +1,5 @@
 examples
-exampleEthereumEnvironmentQueriesIndexQueryWhereMessageSend
+exampleEthereumEnvironmentQueriesIndexQueryWhereMessageSendLimit3
 	<example>
 	self ensureEthereum.
 	self
@@ -7,5 +7,6 @@ exampleEthereumEnvironmentQueriesIndexQueryWhereMessageSend
 			'
 		select  instance
 		from instance in eth.indexes
-		where ''.''.split(instance).size = 1  ;
+		where ''.''.split(instance).size = 1 
+		limit 3 ;
 	'

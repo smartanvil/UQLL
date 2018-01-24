@@ -1,4 +1,4 @@
 testing
 isRegisteredConnection: aConnection
-	^ self privateEnvironmentCollection
+	^ self privateEnvironmentCollection value 
 		anySatisfy: [ :e | e isRegisteredConnection: aConnection ]

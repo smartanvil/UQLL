@@ -26,7 +26,7 @@
 		select { <I>  | expression}
 		from <I> in <environment>.<collection name> 
 		where {boolean expression} 
-		order by <expression> 
+		order by <expression> {desc | asc} 
 		
 	### Limit
 		select { <I>  | expression}

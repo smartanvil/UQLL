@@ -1,3 +1,3 @@
 installing
 privateEnvironmentCollection
-	^ names select: [ :n | n isScope ]
+	^ [ names select: [ :n | n isScope ] ]
