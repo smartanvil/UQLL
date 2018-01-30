@@ -1,7 +1,7 @@
 private
 binarySearchFindClosestTo: aStamp
 	| analysing lower upper current |
-	analysing := self connection findBlockByTag: #latest full: true.
+	analysing := self connection findLastBlock.
 	lower := 0.
 	upper := analysing number.
 	[ lower < upper ]
