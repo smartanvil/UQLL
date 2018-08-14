@@ -1,7 +1,7 @@
 initialization
 studyCase
 	^ '(select instance
-	from instance in Numbers1to20)
+	from Numbers1to20 as instance )
 	union
 	(select instance
-	from instance in Numbers10to30);'
+	from Numbers10to30 as instance );'
