@@ -1,6 +1,6 @@
 saving
 register: anIndexEntry
-	self data
+	 data
 		add:
 			{anIndexEntry key.
 			anIndexEntry value}.

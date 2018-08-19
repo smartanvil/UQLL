@@ -1,4 +1,4 @@
-printing
+accessing
 printOn: aStream
 	^ aStream
 		nextPutAll: name printString;

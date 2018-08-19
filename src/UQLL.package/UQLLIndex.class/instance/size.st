@@ -1,3 +1,3 @@
 accessing
 size
-	^ self data size 
+	^ backend size
