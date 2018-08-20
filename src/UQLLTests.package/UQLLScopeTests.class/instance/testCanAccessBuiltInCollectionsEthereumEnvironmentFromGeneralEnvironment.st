@@ -9,7 +9,7 @@ testCanAccessBuiltInCollectionsEthereumEnvironmentFromGeneralEnvironment
 	self assert: (environment exists: ether / #collections) value.
 	self assert: (environment get: ether / #collections) value size equals: 4.
 	self assert: ((environment get: ether / #collections) value allSatisfy: #isSymbol).
-	self assert: (environment get: ether / #indexes) value size equals: 16.
+	self assert: (environment get: ether / #indexes) value size equals: 15.
 	self assert: ((environment get: ether / #indexes) value allSatisfy: #isSymbol).
 	self
 		assert:
@@ -20,7 +20,7 @@ testCanAccessBuiltInCollectionsEthereumEnvironmentFromGeneralEnvironment
 		assert:
 			((environment get: ether / #indexes) value
 				collect: [ :n | environment get: ether / n ensure: #isUQLLIndex ]) size
-		equals: 16.
+		equals: 15.
 	self assert: (environment exists: ether / #contract / #instances).
 	self assert: (environment exists: ether / #contract / #activations).
 	self assert: (environment exists: ether / #contract / #descriptions).
