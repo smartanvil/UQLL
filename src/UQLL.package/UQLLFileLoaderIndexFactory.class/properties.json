@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-Structural-MemoryIndex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"indexDirectory"
+	],
+	"name" : "UQLLFileLoaderIndexFactory",
+	"type" : "normal"
+}

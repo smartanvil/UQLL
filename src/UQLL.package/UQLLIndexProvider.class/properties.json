@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UQLL-Structural-Indexes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"indexes"
+	],
+	"name" : "UQLLIndexProvider",
+	"type" : "normal"
+}

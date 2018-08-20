@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"index"
+		"index",
+		"indexInstanceProvider"
 	],
 	"name" : "UQLLIndexBuilder",
 	"type" : "normal"

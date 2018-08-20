@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLIndexBuilder",
+	"category" : "UQLL-Ethereum-Setup-Indexes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLTransactionHashesToBlockHash",
+	"type" : "normal"
+}

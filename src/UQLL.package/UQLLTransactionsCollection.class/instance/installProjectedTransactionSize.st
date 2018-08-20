@@ -1,3 +1,3 @@
 initialization
 installProjectedTransactionSize
-	environment register: self transactionSizeIndexTag forIndexBasedOn: #TxAmountOfTransactionsToBlockHash
+	environment register: self transactionSizeIndexTag forIndexBasedOn: #AmountOfTransactionsToBlockHash

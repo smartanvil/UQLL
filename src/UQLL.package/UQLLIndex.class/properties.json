@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"backend",
 		"tag"
 	],
 	"name" : "UQLLIndex",

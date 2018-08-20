@@ -1,3 +1,5 @@
 installing
 installCollection: aCollection as: aName
-	self install: aCollection at: aName asScopePath 
+	(aCollection respondsTo: #environment:)
+		ifTrue: [ aCollection environment: self ].
+	self install: aCollection at: aName asScopePath

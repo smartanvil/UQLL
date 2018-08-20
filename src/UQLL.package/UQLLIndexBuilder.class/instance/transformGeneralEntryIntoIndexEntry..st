@@ -1,3 +1,0 @@
-registry
-transformGeneralEntryIntoIndexEntry: anObject
-	self subclassResponsibility

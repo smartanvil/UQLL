@@ -1,0 +1,4 @@
+as yet unclassified
+installBuiltinObjectsUsingIndexFactory: anIndexFactory collectionFactory: aCollectionFactory
+	self installBuiltinCollections: aCollectionFactory 
+	

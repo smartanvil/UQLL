@@ -1,3 +1,0 @@
-registry
-relatedIndexKind
-	^ UQLLStampToHashIndex new
