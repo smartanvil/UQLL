@@ -1,3 +1,3 @@
 initialization
 size
-	^ data size.
+	^ self data size.

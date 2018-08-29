@@ -1,0 +1,3 @@
+initialization
+timestampIndex
+	^ self subclassResponsibility 

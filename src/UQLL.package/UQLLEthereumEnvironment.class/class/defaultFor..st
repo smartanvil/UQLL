@@ -1,3 +1,3 @@
 as yet unclassified
 defaultFor: aConnection
-	^ self createNewWithMemoryIndexesOn: aConnection
+	^ self createNewWithPGIndexesOn: aConnection

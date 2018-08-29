@@ -1,1 +1,0 @@
-Named index is an object that points to an unique index name and a file to load the indx. 

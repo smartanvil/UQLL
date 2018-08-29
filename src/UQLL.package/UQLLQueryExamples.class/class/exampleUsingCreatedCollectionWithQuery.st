@@ -6,6 +6,6 @@ exampleUsingCreatedCollectionWithQuery
 		queryInspect:
 			'
 		select instance
-		from instance in eth.holders
+		from eth.holders as instance
 		;
 	'

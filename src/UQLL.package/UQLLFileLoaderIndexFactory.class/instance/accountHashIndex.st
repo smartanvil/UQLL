@@ -1,3 +1,6 @@
 as yet unclassified
 accountHashIndex
-	^ UQLLNamedIndex named: #AccountToBlockHashes on: self indexDirectory / 'AccountToBlockHashes.idx.fl'
+	^ UQLLHashToSetOfHashesIndex new
+		name: #AccountToBlockHashes;
+		file: self indexDirectory / 'AccountToBlockHashes.idx.fl';
+		yourself

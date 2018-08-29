@@ -4,7 +4,7 @@ exampleMinimalWhere
 	| stream |
 	stream := self 	query:	' 
 		select instance.name()
-		from instance in environments
+		from environments as instance
 		where instance.name() = ''eth'';
 	'.
 	stream upToEnd inspect

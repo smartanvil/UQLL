@@ -1,0 +1,3 @@
+initialization
+contractsAmountPerBlockIndex
+	^ self subclassResponsibility 

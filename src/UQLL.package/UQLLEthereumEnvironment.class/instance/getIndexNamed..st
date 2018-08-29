@@ -1,3 +1,3 @@
 accessing - index
 getIndexNamed: aName
-	^ (self get: aName asScopePath ensure: #isUQLLIndex) index 
+	^ self get: aName asScopePath ensure: #isUQLLIndex

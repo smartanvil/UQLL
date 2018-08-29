@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ParametrizedTestCase",
+	"category" : "UQLL-Structural-Indexes-Postgres",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"factory"
+	],
+	"name" : "UQLLFactoryIndexCreationTests",
+	"type" : "normal"
+}

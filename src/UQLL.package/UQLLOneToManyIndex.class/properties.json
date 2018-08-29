@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLIndex",
+	"category" : "UQLL-Structural-Indexes-Postgres",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UQLLOneToManyIndex",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+initialization
+transactionsSizeIndex
+	^ self subclassResponsibility 

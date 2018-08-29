@@ -1,3 +1,6 @@
 as yet unclassified
 contractsHashIndex
-	^ UQLLNamedIndex named: #ContractToBlockHashes on: self indexDirectory / 'ContractToBlockHashes.idx.fl'
+	^ UQLLHashToSetOfHashesIndex new
+		name: #ContractToBlockHashes;
+		file: self indexDirectory / 'ContractToBlockHashes.idx.fl';
+		yourself

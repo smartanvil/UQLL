@@ -1,3 +1,3 @@
 accessing
 all
-	^  data collect: [ :a | a at: 2 ]
+	^  self data collect: [ :a | a at: 2 ]

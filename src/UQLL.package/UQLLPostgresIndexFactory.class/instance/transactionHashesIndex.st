@@ -1,0 +1,3 @@
+initialization
+transactionHashesIndex
+	^ self uniqueHashIndexNamed: #TransactionHashToBlockHash

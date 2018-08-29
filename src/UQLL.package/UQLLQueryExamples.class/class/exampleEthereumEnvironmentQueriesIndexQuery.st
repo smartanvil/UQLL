@@ -4,5 +4,5 @@ exampleEthereumEnvironmentQueriesIndexQuery
 	self ensureEthereum.
 	self queryInspect: '
 		select instance
-		from instance in eth.indexes;
+		from eth.indexes  as instance;
 	'.

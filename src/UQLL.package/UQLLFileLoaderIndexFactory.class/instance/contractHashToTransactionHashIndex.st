@@ -1,3 +1,6 @@
 as yet unclassified
 contractHashToTransactionHashIndex
-	^ UQLLNamedIndex named: #ContractToTransactionHashes on: self indexDirectory / 'ContractToTransactionHashes.idx.fl'
+	^ UQLLHashToSetOfHashesIndex new
+		name: #ContractToTransactionHashes;
+		file: self indexDirectory / 'ContractToTransactionHashes.idx.fl';
+		yourself

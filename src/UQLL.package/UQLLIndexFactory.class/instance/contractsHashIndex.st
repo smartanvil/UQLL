@@ -1,0 +1,3 @@
+initialization
+contractsHashIndex
+	^ self subclassResponsibility 

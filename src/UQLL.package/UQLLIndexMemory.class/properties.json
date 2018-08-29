@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"data",
-		"file"
+		"file",
+		"data"
 	],
 	"name" : "UQLLIndexMemory",
 	"type" : "normal"

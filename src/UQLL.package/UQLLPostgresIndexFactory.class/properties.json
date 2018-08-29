@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLIndexFactory",
+	"category" : "UQLL-Structural-Indexes-Postgres",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"connection"
+	],
+	"name" : "UQLLPostgresIndexFactory",
+	"type" : "normal"
+}

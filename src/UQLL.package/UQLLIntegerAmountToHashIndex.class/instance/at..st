@@ -1,3 +1,3 @@
 accessing
 at: anId
-	^ (( data at: anId) at: 2) asBKHexa: 64
+	^ (( self data at: anId) at: 2) asBKHexa: 64

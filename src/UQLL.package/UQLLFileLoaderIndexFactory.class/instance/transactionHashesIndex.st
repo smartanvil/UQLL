@@ -1,3 +1,6 @@
 as yet unclassified
 transactionHashesIndex
-	^ UQLLNamedIndex named: #TransactionHashToBlockHash on: self indexDirectory / 'TransactionHashToBlockHash.idx.fl'
+	^ UQLLHashToSetOfHashesIndex new
+		name: #TransactionHashToBlockHash;
+		file: self indexDirectory / 'TransactionHashToBlockHash.idx.fl';
+		yourself

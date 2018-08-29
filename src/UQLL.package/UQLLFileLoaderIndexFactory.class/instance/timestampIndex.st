@@ -1,3 +1,6 @@
 as yet unclassified
 timestampIndex
-	^ UQLLNamedIndex named: #BlockStampToBlockHash on: self indexDirectory / 'BlockStampToBlockHash.idx.fl'
+	^ UQLLStampToHashIndex new
+		name: #BlockStampToBlockHash;
+		file: self indexDirectory / 'BlockStampToBlockHash.idx.fl';
+		yourself

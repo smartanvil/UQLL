@@ -5,8 +5,8 @@ binarySearchFindLeftBound: anInteger
 	upper := self size.
 	[ lower < upper ]
 		whileTrue: [ current := lower + ((upper - lower) // 2).
-			analysing :=  data at: current.
-			next :=  data at: current + 1.
+			analysing :=  self data at: current.
+			next :=  self data at: current + 1.
 			((analysing at: 1) < anInteger and: [ anInteger <= (next at: 1) ])
 				ifTrue: [ ^ current + 1 ].
 			anInteger > (analysing at: 1)

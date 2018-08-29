@@ -1,3 +1,6 @@
 as yet unclassified
 transactionsSizeIndex
-	^ UQLLNamedIndex named: #AmountOfTransactionsToBlockHash on: self indexDirectory / 'AmountOfTransactionsToBlockHash.idx.fl'
+	^ UQLLIntegerAmountToHashIndex new
+		name: #AmountOfTransactionsToBlockHash;
+		file: self indexDirectory / 'AmountOfTransactionsToBlockHash.idx.fl';
+		yourself

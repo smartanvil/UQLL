@@ -4,6 +4,6 @@ exampleMinimalSelect
 	| stream |
 	stream := self 	query:	' 
 		select instance 
-		from instance in environments;
+		from  environments  as instance;
 	'.
 	stream upToEnd inspect

@@ -7,7 +7,7 @@ exampleCreateCollectionWithQuery
 			'
 		create collection eth.holders { 
 		select  instance
-		from instance in eth.indexes
+		from eth.indexes as instance
 		where ''.''.split(instance).size = 1 
 		order by instance desc
 		limit 3};

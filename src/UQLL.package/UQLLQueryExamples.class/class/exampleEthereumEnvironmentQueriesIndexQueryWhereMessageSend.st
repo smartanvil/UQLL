@@ -6,6 +6,6 @@ exampleEthereumEnvironmentQueriesIndexQueryWhereMessageSend
 		queryInspect:
 			'
 		select  instance
-		from instance in eth.indexes
+		from eth.indexes as instance
 		where ''.''.split(instance).size = 1  ;
 	'
