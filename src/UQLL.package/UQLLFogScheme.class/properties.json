@@ -1,0 +1,18 @@
+{
+	"classtraitcomposition" : "TEquality classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"environment",
+		"url",
+		"session"
+	],
+	"name" : "UQLLFogScheme",
+	"commentStamp" : "SantiagoBragagnolo 1/4/2018 12:45",
+	"super" : "UQLLAbstractScheme",
+	"traitcomposition" : "TEquality",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "UQLL-Ethereum-Connections"
+}

@@ -1,5 +1,5 @@
 accessing
-environmentFor: aConnection ifAbsent: aBlock
-	^ aConnection name == aConnection name
+environmentFor: aScheme ifAbsent: aBlock
+	^ scheme name == aScheme name
 		ifTrue: [ self ]
-		ifFalse: [ super environmentFor: aConnection ifAbsent: aBlock ]
+		ifFalse: [ super environmentFor: aScheme ifAbsent: aBlock ]

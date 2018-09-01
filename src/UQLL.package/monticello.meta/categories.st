@@ -2,11 +2,12 @@ SystemOrganization addCategory: #UQLL!
 SystemOrganization addCategory: #'UQLL-Errors'!
 SystemOrganization addCategory: #'UQLL-Ethereum-Collections'!
 SystemOrganization addCategory: #'UQLL-Ethereum-Connections'!
-SystemOrganization addCategory: #'UQLL-Ethereum-Indexes-Combinations'!
 SystemOrganization addCategory: #'UQLL-Ethereum-Setup-Indexes'!
 SystemOrganization addCategory: #'UQLL-QueryExamples'!
 SystemOrganization addCategory: #'UQLL-SemanticAST'!
+SystemOrganization addCategory: #'UQLL-SemanticAST-CreateCollection'!
 SystemOrganization addCategory: #'UQLL-SemanticAST-CreateConnection'!
+SystemOrganization addCategory: #'UQLL-SemanticAST-CreateIndex'!
 SystemOrganization addCategory: #'UQLL-SemanticAST-Interpreter'!
 SystemOrganization addCategory: #'UQLL-SemanticAST-OperatorsBinary'!
 SystemOrganization addCategory: #'UQLL-SemanticAST-OperatorsSet'!
@@ -21,4 +22,6 @@ SystemOrganization addCategory: #'UQLL-Structural'!
 SystemOrganization addCategory: #'UQLL-Structural-Collections'!
 SystemOrganization addCategory: #'UQLL-Structural-Connections'!
 SystemOrganization addCategory: #'UQLL-Structural-Indexes'!
+SystemOrganization addCategory: #'UQLL-Structural-Indexes-Postgres'!
+SystemOrganization addCategory: #'UQLL-Structural-MemoryIndex'!
 SystemOrganization addCategory: #'UQLL-Structural-Setup-Indexes'!

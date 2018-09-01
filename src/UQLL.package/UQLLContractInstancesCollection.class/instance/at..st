@@ -1,3 +1,3 @@
 accessing
 at: aContractId
-	^ self connection findContractBindByHash: aContractId blockTag: #latest
+	^ self session findContractBindByHash: aContractId blockTag: #latest

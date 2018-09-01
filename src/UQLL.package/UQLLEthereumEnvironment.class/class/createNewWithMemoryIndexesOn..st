@@ -1,7 +1,7 @@
 as yet unclassified
-createNewWithMemoryIndexesOn: aConnection
+createNewWithMemoryIndexesOn: aScheme
 	^ self new
-		initializeWithConnection: aConnection
+		initializeWithScheme: aScheme
 			indexFactory: UQLLFileLoaderIndexFactory new
 			collectionFactory: UQLLCollectionFactory new;
 		yourself

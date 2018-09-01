@@ -1,3 +1,0 @@
-accessing
-indexFactory
-	^ configuration indexFactory 

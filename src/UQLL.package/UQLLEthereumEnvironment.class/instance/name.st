@@ -1,3 +1,3 @@
 accessing
 name
-	^ connection name 
+	^ scheme name 

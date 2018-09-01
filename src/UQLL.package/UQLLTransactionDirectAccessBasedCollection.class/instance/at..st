@@ -1,3 +1,3 @@
 accessing
 at: aHash
-	^ self transform: (self connection findTransactionByHash: aHash)
+	^ self transform: (self session findTransactionByHash: aHash)

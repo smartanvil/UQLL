@@ -1,3 +1,0 @@
-accessing
-select
-	self shouldBeImplemented.

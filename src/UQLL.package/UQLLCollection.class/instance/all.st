@@ -1,3 +1,5 @@
 resolveingIds
-all 
-	^ self subclassResponsibility 
+all
+	^ self hasUniqueIndex
+		ifTrue: [ self uniqueIndex all ]
+		ifFalse: [ self fullScanKeys ]

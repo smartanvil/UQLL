@@ -1,3 +1,0 @@
-accessing
-collectionFactory
-	^ configuration collectionFactory 

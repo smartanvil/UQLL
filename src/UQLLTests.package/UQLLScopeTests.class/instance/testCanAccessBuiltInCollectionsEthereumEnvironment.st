@@ -1,7 +1,7 @@
 initialization
 testCanAccessBuiltInCollectionsEthereumEnvironment
 	| ethereum |
-	ethereum := UQLLFogConnection new environment.
+	ethereum := UQLLFogScheme new environment.
 	self assert: (ethereum exists: #collections asScopePath).
 	self assert: (ethereum get: #collections asScopePath) value size equals: 4.
 	self assert: ((ethereum get: #collections asScopePath) value allSatisfy: #isSymbol).

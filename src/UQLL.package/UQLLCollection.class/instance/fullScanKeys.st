@@ -1,0 +1,3 @@
+resolveingIds
+fullScanKeys
+	^ self subclassResponsibility 

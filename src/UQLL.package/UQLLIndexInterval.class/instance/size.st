@@ -1,3 +1,3 @@
 accessing
 size
-	^( to - from ) abs 
+	^ (from to: to by: step) size

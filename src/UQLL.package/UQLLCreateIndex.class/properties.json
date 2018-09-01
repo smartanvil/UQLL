@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "UQLLSemanticNode",
+	"category" : "UQLL-SemanticAST-CreateIndex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"name",
+		"collection",
+		"member",
+		"factory"
+	],
+	"name" : "UQLLCreateIndex",
+	"type" : "normal"
+}

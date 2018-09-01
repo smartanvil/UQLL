@@ -1,5 +1,5 @@
 installing
 installCollection: aCollection as: aName
 	aCollection isBlock
-		ifFalse: [ aCollection connection: connection ].
+		ifFalse: [ aCollection scheme: scheme ].
 	^ super installCollection: aCollection as: aName

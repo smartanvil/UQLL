@@ -1,7 +1,7 @@
 as yet unclassified
-createNewWithPGIndexesOn: aConnection
+createNewWithPGIndexesOn: aScheme
 	^ self new
-		initializeWithConnection: aConnection
+		initializeWithScheme: aScheme
 			indexFactory: UQLLPostgresIndexFactory new
 			collectionFactory: UQLLCollectionFactory new;
 		yourself

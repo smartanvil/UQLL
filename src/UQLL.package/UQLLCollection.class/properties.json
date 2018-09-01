@@ -8,7 +8,8 @@
 	"instvars" : [
 		"indexes",
 		"connection",
-		"environment"
+		"environment",
+		"scheme"
 	],
 	"name" : "UQLLCollection",
 	"type" : "normal"

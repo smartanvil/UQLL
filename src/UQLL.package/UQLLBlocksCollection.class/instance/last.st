@@ -1,3 +1,3 @@
 accessing
 last
-	^ (self connection findBlockByTag: #latest full: true) number
+	^ (self session findBlockByTag: #latest full: true) number

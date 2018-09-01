@@ -1,10 +1,10 @@
 initialization
 testCanAccessBuiltInCollectionsEthereumEnvironmentFromGeneralEnvironment
 	| connection ether |
-	connection := UQLLFogConnection new
+	connection := UQLLFogScheme new
 		name: #ether;
 		yourself.
-	environment registerConnection: connection.
+	environment registerScheme: connection.
 	ether := #ether asScopePath.
 	self assert: (environment exists: ether / #collections) value.
 	self assert: (environment get: ether / #collections) value size equals: 4.

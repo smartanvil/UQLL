@@ -1,3 +1,0 @@
-initialization
-connection
-	^ FogConnection createDefaultConnection session
