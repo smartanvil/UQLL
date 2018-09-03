@@ -1,3 +1,4 @@
 resolveingIds
 all
-	^ (environment getIndexNamed: self hashIndexTag) all
+	^ super all
+	"^ (environment getIndexNamed: self hashIndexTag) all"

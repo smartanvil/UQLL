@@ -14,7 +14,7 @@ ensureMappingIndexTable: aName type: aType toType: anOtherType
 				format:
 					{aName.
 					(aType,'=>',anOtherType).
-					#unique}.
+					#mapping}.
 			connection execute: create.
 			connection execute: index.
 			connection execute: insert ]

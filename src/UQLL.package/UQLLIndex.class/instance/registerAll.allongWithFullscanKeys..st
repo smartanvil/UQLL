@@ -1,0 +1,3 @@
+saving
+registerAll: extractedData allongWithFullscanKeys: fullScanKeys
+	self subclassResponsibility

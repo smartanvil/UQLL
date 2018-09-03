@@ -1,3 +1,3 @@
 accessing
 acceptVisitor: aVisitor
-	aVisitor visitCreateIndex: self.
+	^ aVisitor visitCreateIndex: self.

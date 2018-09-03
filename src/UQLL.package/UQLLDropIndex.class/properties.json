@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "UQLLIndex",
-	"category" : "UQLL-Structural-Indexes-Postgres",
+	"super" : "UQLLSemanticNode",
+	"category" : "UQLL-SemanticAST-CreateIndex",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"type",
-		"all"
+		"indexName"
 	],
-	"name" : "UQLLUniqueIndex",
+	"name" : "UQLLDropIndex",
 	"type" : "normal"
 }
