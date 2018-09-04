@@ -6,8 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"key",
-		"value"
+		"keyType",
+		"valueType",
+		"parentCollection",
+		"parentMember"
 	],
 	"name" : "UQLLMappingIndex",
 	"type" : "normal"

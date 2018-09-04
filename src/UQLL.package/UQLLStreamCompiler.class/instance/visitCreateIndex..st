@@ -1,14 +1,9 @@
 create index visiting
 visitCreateIndex: anUQLLCreateIndex
-	| message collection index |
+	| message collection |
 	collection := UQLLRunningEnvironmentHolder value get: anUQLLCreateIndex collection.
 	message := (UQLLRunningEnvironmentHolder value exists: anUQLLCreateIndex name)
-		ifFalse: [ 
-			index := anUQLLCreateIndex createIndexFor: collection.
-			UQLLRunningEnvironmentHolder value registerAndInitializeIndex: index.
-			'New index created' 
-		]
-		ifTrue: [ 
-			'Error: index already exists' 
-		].
+		ifFalse: [ anUQLLCreateIndex createIndexFor: collection using: UQLLRunningEnvironmentHolder value.
+			'New index created' ]
+		ifTrue: [ 'Error: index already exists' ].
 	^ {message} readStream

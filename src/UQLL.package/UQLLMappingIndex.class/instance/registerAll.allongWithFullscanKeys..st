@@ -8,7 +8,7 @@ registerAll: extractedData allongWithFullscanKeys: keys
 		whileFalse: [ | chunk |
 			chunk := ((keysReader next: 1000) reject: [ :e | e isNil ])
 				with: ((values next: 1000) reject: [ :e | e isNil ])
-				collect: [ :a :b | '(''' , a asString , ''',' , b asUnixTime asString , ')' ].
+				collect: [ :a :b | '(''' , a asString , ''',' , '''', b asString , ''')' ].
 			insert := 'INSERT INTO {1} (key, value) values {2};'
 				format:
 					{name asSymbol.

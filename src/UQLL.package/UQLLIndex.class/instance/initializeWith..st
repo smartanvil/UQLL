@@ -8,6 +8,8 @@ initializeWith: anUQLLEnvironment
 				collect: [ :idx | 
 					| key |
 					key := keys at: idx.
-					[ array at: idx put: (member asSymbol value: (collection at: key)) ] ] ].
+					[ array at: idx put: (member value: (collection at: key)) ] ] ].
 	self registerAll: array allongWithFullscanKeys: keys.
+	environment := anUQLLEnvironment.
+	anUQLLEnvironment install: self at: self name asScopePath.
 	collection registerIndex: self

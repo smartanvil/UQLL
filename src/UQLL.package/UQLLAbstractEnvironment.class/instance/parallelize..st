@@ -2,8 +2,8 @@ accessing
 parallelize: aBlockGenerator
 	| tasksFutures errors |
 	errors := Set new.
-	TKTConfiguration runner poolMaxSize: 30.
-	tasksFutures := aBlockGenerator value collect: [ :t | t future ].
+	self runner poolMaxSize: 30.
+	tasksFutures := aBlockGenerator value collect: [ :t | t asTask future: self runner ].
 	tasksFutures do: [ :tf | tf onFailureDo: [ :e | errors add: e ] ].
 	tasksFutures
 		do: [ :t | 

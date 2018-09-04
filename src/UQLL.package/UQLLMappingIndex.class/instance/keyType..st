@@ -1,3 +1,3 @@
 accessing
 keyType: aString 
-	key := aString 
+	keyType := aString 

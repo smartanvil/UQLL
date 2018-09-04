@@ -1,7 +1,6 @@
 testing
 registerIndex: anIndex
 	| alias |
-	self environment installIndex: anIndex.
 	alias := '{1}.{2}'
 		format:
 			{ self collectionName  asSymbol.

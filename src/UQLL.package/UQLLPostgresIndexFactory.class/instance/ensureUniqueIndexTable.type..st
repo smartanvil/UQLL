@@ -1,12 +1,8 @@
 initialization
 ensureUniqueIndexTable: aName type: aType
 	(self existsIndexTable: aName type: aType kind: #unique)
-		ifFalse: [ | insert create index |
-			create := 'DROP TABLE IF EXISTS {1}; CREATE TABLE {1} ( index {2} ); '
-				format:
-					{aName.
-					aType}.
-			index := 'CREATE INDEX ON {1} USING btree (index);'
+		ifFalse: [ | insert create |
+			create := 'DROP TABLE IF EXISTS {1}; CREATE TABLE {1} ( index {2} PRIMARY KEY ); '
 				format:
 					{aName.
 					aType}.
@@ -16,5 +12,4 @@ ensureUniqueIndexTable: aName type: aType
 					aType.
 					#unique}.
 			connection execute: create.
-			connection execute: index.
 			connection execute: insert ]

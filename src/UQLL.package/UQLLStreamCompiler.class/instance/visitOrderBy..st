@@ -1,7 +1,7 @@
 visiting
 visitOrderBy: anUQLLOrderBy
 	| create sorter |
-	create := (anUQLLOrderBy order ifNil: [ #asc ]) asSymbol.
+	create := (anUQLLOrderBy order ifNil: [ #asc ]) asSymbol asLowercase asSymbol .
 	sorter := create value: UQLLSorter.
 	sorter
 		expression:

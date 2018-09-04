@@ -1,0 +1,3 @@
+interface
+createMappingIndexOn: aTargetCollection atMember: aTargetMemberPath pointingToKeysAt: aCollectionOfKeys atMember: aPointingMemberPath named: anIndexName
+	self subclassResponsibility

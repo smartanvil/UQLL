@@ -1,6 +1,3 @@
 *UQLL
 blocksNumbersInterval
-	^ UQLLIndexInterval new
-		from: 1;
-		to: self findLastBlock number;
-		yourself
+	^ Interval from: 1 to: self findLastBlock number

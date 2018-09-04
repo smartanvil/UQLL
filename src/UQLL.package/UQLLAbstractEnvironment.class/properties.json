@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"functions"
+		"functions",
+		"pool"
 	],
 	"name" : "UQLLAbstractEnvironment",
 	"type" : "normal"

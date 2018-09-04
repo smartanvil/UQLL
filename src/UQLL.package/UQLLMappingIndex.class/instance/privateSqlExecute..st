@@ -1,3 +1,3 @@
-sql
-privateSqlExecute: aString 
-		^ self privateSqlConnection execute: aString
+private - sql
+privateSqlExecute: aString
+	^ self privateSqlConnection execute: aString

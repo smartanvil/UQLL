@@ -1,3 +1,3 @@
 accessing
 valueType: aString 
-	value := aString
+	valueType := aString
