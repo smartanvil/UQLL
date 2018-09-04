@@ -1,1 +1,0 @@
-Contract -> transaction hash activation ( given an contract it respnds in which transactions has been used )

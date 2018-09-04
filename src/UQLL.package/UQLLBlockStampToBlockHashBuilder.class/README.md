@@ -1,1 +1,0 @@
-stamp -> block hash. Given a time stamp, it gives a related hash

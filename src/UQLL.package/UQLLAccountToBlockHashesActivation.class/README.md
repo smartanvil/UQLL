@@ -1,1 +1,0 @@
-Account -> block hash activation ( given an account it respnds in which blocks has been used )

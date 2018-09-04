@@ -1,3 +1,0 @@
-actions
-prepare
-	self tagIndex .

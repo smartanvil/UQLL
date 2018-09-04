@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "UQLLIndex",
+	"super" : "UQLLSQLIndex",
 	"category" : "UQLL-Structural-Indexes-Postgres",
 	"classinstvars" : [ ],
 	"pools" : [ ],

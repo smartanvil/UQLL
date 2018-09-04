@@ -1,4 +1,0 @@
-install - indexes
-installBuiltinObjectsUsingIndexFactory: anIndexFactory collectionFactory: aCollectionFactory
-	self installBuiltinIndexes: anIndexFactory.
-	super installBuiltinObjectsUsingIndexFactory: anIndexFactory collectionFactory: aCollectionFactory

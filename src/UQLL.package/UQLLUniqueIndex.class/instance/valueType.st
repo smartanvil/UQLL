@@ -1,0 +1,3 @@
+private - sql
+valueType
+	^ type

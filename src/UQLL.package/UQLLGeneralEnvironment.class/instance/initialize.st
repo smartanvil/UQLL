@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self installBuiltinObjectsUsingIndexFactory: nil collectionFactory: UQLLCollectionFactory new
+	self installBuiltinCollections: UQLLCollectionFactory new

@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "UQLLSQLIndex",
+	"super" : "UQLLIndex",
 	"category" : "UQLL-Structural-Indexes-Postgres",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"type",
-		"all"
+		"privateSqlConnection"
 	],
-	"name" : "UQLLUniqueIndex",
+	"name" : "UQLLSQLIndex",
 	"type" : "normal"
 }

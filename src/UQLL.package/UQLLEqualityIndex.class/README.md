@@ -1,1 +1,0 @@
-An equality index is for sparsed non sequential input. It only supports equality 

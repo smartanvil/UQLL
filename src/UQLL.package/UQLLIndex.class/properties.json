@@ -10,7 +10,6 @@
 		"name",
 		"collection",
 		"member",
-		"privateSqlConnection",
 		"environment"
 	],
 	"name" : "UQLLIndex",

@@ -1,0 +1,3 @@
+accessing
+valueColumn
+	self subclassResponsibility

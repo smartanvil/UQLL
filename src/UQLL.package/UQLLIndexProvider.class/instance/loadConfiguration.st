@@ -1,3 +1,0 @@
-initialization
-loadConfiguration 
-	self subclassResponsibility 

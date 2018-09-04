@@ -1,1 +1,0 @@
-block creation - > block hash
