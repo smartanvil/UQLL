@@ -1,4 +1,4 @@
-initialization
+ensure
 ensureUniqueIndexTable: aName type: aType
 	(self existsIndexTable: aName type: aType kind: #unique)
 		ifFalse: [ | insert create |

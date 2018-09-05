@@ -1,3 +1,3 @@
 tests
 testMinusSubstract
-	self assert: UQLLMinusOperator new operation = #-
+	self assert: UQLLBinaryArithmeticExpression minusOperator operation = #-

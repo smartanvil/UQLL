@@ -1,4 +1,4 @@
-initialization
+ensure
 ensureMappingIndexTable: aName type: aType toType: anOtherType 
 	(self existsIndexTable: aName type: (aType,'=>',anOtherType) kind: #mapping)
 		ifFalse: [ | insert create index |

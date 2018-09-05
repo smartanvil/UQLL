@@ -1,4 +1,4 @@
-interface
+create
 createMappingIndexOn: aTargetCollection atMember: aTargetMemberPath pointingToKeysAt: aCollectionOfKeys atMember: aPointingMemberPath named: anIndexName
 	| relatedIndex keyType valueType |
 	relatedIndex := aCollectionOfKeys uniqueIndex.

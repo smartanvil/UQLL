@@ -1,3 +1,3 @@
 tests
 testPlusAdds
-	self assert: UQLLPlusOperator new operation = #+
+	self assert: UQLLBinaryArithmeticExpression plusOperator  operation = #+

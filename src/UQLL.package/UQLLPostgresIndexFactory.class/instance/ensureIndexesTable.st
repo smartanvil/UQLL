@@ -1,4 +1,4 @@
-initialization
+ensure
 ensureIndexesTable
 	(connection execute: 'SELECT 1 FROM information_schema.tables WHERE table_name =''uqll_index_registry''') isEmpty
 		ifTrue: [ connection

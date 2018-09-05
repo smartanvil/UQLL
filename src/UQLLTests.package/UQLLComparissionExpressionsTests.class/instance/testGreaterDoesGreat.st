@@ -1,3 +1,3 @@
 tests
 testGreaterDoesGreat
-	self assert: UQLLGreaterOperator new operation = #>
+	self assert: UQLLComparisionOperator greaterOperator operation = #>

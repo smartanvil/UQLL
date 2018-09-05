@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"left",
-		"right"
+		"right",
+		"operation"
 	],
 	"name" : "UQLLBinaryOperator",
 	"type" : "normal"

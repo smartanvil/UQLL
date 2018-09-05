@@ -1,3 +1,0 @@
-initialization
-accountHashToTransactionHashIndex
-	^ self subclassResponsibility 

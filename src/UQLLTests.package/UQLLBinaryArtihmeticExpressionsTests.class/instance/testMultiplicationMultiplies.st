@@ -1,3 +1,3 @@
 tests
 testMultiplicationMultiplies
-	self assert: UQLLMultiplyOperator new operation = #*
+	self assert: UQLLBinaryArithmeticExpression multiplyOperator   operation = #*

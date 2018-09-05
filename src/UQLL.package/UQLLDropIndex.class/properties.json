@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnollo 9/5/2018 11:59",
 	"super" : "UQLLSemanticNode",
 	"category" : "UQLL-SemanticAST-CreateIndex",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"indexName"
+		"indexName",
+		"factory"
 	],
 	"name" : "UQLLDropIndex",
 	"type" : "normal"

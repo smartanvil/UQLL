@@ -1,3 +1,3 @@
 tests
 testPowerPowers
-	self assert: UQLLPowerOperator new operation = #**
+	self assert: UQLLBinaryArithmeticExpression powerOperator operation = #**

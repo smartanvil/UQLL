@@ -1,0 +1,1 @@
+Simple indirection for allowing different strategies

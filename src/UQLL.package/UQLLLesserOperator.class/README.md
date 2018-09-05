@@ -1,1 +1,0 @@
-It operates comparable objects by lesser  operator

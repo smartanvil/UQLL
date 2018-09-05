@@ -1,6 +1,6 @@
 visiting
 visitLesserThanOperation: aBinaryOperation
-	^ UQLLLesserOperator new
+	^ UQLLComparisionOperator lesserOperator
 		left: (aBinaryOperation left_exp acceptVisitor: self);
 		right: (aBinaryOperation right_exp acceptVisitor: self);
 		yourself

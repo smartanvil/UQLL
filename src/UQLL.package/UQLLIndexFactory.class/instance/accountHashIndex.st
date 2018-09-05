@@ -1,3 +1,0 @@
-initialization
-accountHashIndex
-	^ self subclassResponsibility 

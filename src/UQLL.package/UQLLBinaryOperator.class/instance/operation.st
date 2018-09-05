@@ -1,3 +1,3 @@
 printing
 operation
-	self subclassResponsibility 
+	^ operation

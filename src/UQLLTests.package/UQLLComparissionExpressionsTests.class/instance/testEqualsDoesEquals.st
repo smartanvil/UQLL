@@ -1,3 +1,3 @@
 tests
 testEqualsDoesEquals
-	self assert: UQLLEqualsOperator new operation = #=
+	self assert: UQLLComparisionOperator equalsOperator operation = #=

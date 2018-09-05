@@ -1,3 +1,0 @@
-initialization
-installProjectedTimestampIndex
-	environment register: self timestampIndexTag forIndexBasedOn: #TransactionHashToBlockHash

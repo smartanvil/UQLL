@@ -1,3 +1,3 @@
 tests
 testDifferentDiffers
-	self assert: UQLLDifferentOperator new operation = #~=
+	self assert: UQLLComparisionOperator differentOperator operation = #~=

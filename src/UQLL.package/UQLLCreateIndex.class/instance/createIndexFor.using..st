@@ -1,4 +1,4 @@
-as yet unclassified
+creating
 createIndexFor: anUQLLCollection using: aGeneralEnvironment
 	| installingEnvironment index |
 	installingEnvironment := aGeneralEnvironment get: name parent.

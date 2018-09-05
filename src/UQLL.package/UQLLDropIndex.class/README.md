@@ -1,0 +1,1 @@
+Drop index allow the user to drop what ever index that is possible to drop. 

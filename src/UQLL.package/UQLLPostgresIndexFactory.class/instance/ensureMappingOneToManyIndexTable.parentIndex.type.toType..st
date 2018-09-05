@@ -1,4 +1,4 @@
-initialization
+ensure
 ensureMappingOneToManyIndexTable: aName parentIndex: anIndex type: aType toType: anOtherType
 	| insert create |
 	(self existsIndexTable: aName type: aType , '=>' , anOtherType kind: #mapping)

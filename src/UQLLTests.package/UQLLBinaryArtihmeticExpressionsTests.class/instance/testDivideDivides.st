@@ -1,3 +1,3 @@
 tests
 testDivideDivides
-	self assert: UQLLDivideOperator new operation = #/
+	self assert: UQLLBinaryArithmeticExpression divideOperator operation = #/

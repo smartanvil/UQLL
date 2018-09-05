@@ -1,4 +1,4 @@
-initialization
+ensure
 existsIndexTable: aName type: aType kind: aKind
 	| select |
 	self ensureIndexesTable.
