@@ -3,7 +3,7 @@ ensureMappingOneToManyIndexTable: aName parentIndex: anIndex type: aType toType:
 	| insert create |
 	(self existsIndexTable: aName type: aType , '=>' , anOtherType kind: #mapping)
 		ifTrue: [ ^ self ].
-	create := 'DROP TABLE IF EXISTS {1}; CREATE TABLE {1} ( key {2} REFERENCES {4}(index), value {3} ); '
+	create := 'DROP TABLE IF EXISTS {1}; CREATE TABLE {1} ( key {2} REFERENCES {4}(index), value {3} ) TABLESPACE index_space; '
 		format:
 			{aName.
 			aType.

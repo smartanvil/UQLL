@@ -2,7 +2,7 @@ ensure
 ensureUniqueIndexTable: aName type: aType
 	(self existsIndexTable: aName type: aType kind: #unique)
 		ifFalse: [ | insert create |
-			create := 'DROP TABLE IF EXISTS {1}; CREATE TABLE {1} ( index {2} PRIMARY KEY ); '
+			create := 'DROP TABLE IF EXISTS {1}; CREATE TABLE {1} ( index {2} PRIMARY KEY ) TABLESPACE index_space; '
 				format:
 					{aName.
 					aType}.
