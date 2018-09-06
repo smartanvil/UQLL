@@ -2,7 +2,6 @@ SystemOrganization addCategory: #UQLL!
 SystemOrganization addCategory: #'UQLL-Errors'!
 SystemOrganization addCategory: #'UQLL-Ethereum-Collections'!
 SystemOrganization addCategory: #'UQLL-Ethereum-Connections'!
-SystemOrganization addCategory: #'UQLL-Ethereum-Setup-Indexes'!
 SystemOrganization addCategory: #'UQLL-QueryExamples'!
 SystemOrganization addCategory: #'UQLL-SemanticAST'!
 SystemOrganization addCategory: #'UQLL-SemanticAST-CreateCollection'!

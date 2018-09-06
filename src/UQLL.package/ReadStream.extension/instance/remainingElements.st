@@ -1,0 +1,3 @@
+*UQLL
+remainingElements
+	^ readLimit - position

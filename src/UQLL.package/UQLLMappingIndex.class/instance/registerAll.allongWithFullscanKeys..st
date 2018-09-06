@@ -6,9 +6,9 @@ registerAll: extractedData allongWithFullscanKeys: keys
 	keysReader := keys readStream.
 	[ values atEnd ]
 		whileFalse: [ | chunk |
-			chunk := ((keysReader next: 1000) reject: [ :e | e isNil ])
-				with: ((values next: 1000) reject: [ :e | e isNil ])
-				collect: [ :a :b | '(''' , a asString , ''',' , '''', b asString , ''')' ].
+			chunk := (keysReader next: (1000 min: keysReader remainingElements))
+				with: (values next: (1000 min: values remainingElements))
+				collect: [ :a :b | '(''' , (a ifNil: [ 'null' ]) asString , ''',' , '''' , (a ifNil: [ 'null' ]) , ''')' ].
 			insert := 'INSERT INTO {1} (key, value) values {2};'
 				format:
 					{name asSymbol.

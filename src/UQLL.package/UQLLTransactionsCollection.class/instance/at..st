@@ -1,6 +1,5 @@
 accessing
 at: anIndex
-	| blockHash transactionId |
-	blockHash := (anIndex x asBKHexa: 64) asAddress.
-	transactionId := anIndex y.
-	^ self session findTransactionByBlockHash: blockHash andIndex: transactionId - 1
+	anIndex isPoint
+		ifTrue: [ ^ self atPoint: anIndex ].
+	^ self session findTransactionByHash: anIndex
