@@ -10,7 +10,8 @@
 		"toStamp",
 		"currentBlockNumber",
 		"fromBlockNumber",
-		"toBlockNumber"
+		"toBlockNumber",
+		"session"
 	],
 	"name" : "UQLLTimestampIntervalBlockStream",
 	"type" : "normal"

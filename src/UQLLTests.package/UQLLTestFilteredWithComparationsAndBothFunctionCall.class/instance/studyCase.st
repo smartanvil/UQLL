@@ -1,5 +1,5 @@
 initialization
 studyCase
 	^ 'select instance
-	from instance in Numbers1to20
+	from Numbers1to20 as instance 
 	where id(instance) > id(10);'

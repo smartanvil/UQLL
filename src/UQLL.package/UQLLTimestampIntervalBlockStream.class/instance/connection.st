@@ -1,3 +1,3 @@
 accessing
 connection
-	^ FogConnection currentConnection 
+	^ session ifNil: [ session := FogConnection createDefaultConnection session]

@@ -1,5 +1,6 @@
 as yet unclassified
-on: aCollection
+on: aBackend
+	self halt. 
 	^ self new
-		data: aCollection;
+		backend: aBackend;
 		yourself

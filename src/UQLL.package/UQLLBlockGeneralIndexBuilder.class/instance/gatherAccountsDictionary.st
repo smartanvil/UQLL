@@ -19,7 +19,9 @@ gatherAccountsDictionary
 			[ | isContract hash |
 			hash := k asBKHexa.
 			hash size = 42
-				ifTrue: [ isContract := (FogCachedConnection currentConnection eth getContractCode: k asBKHexa blockTag: #latest) isNotNil.
+				ifTrue: [ isContract := (FogConnection createDefaultConnection eth
+						getContractCode: k asBKHexa
+						blockTag: #latest) isNotNil.
 					isContract
 						ifTrue: [ contracts at: hash put: (dic at: k) asSet asArray ]
 						ifFalse: [ accounts at: hash put: (dic at: k) asSet asArray ] ] ] schedule ].
